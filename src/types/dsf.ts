@@ -106,6 +106,7 @@ export interface Experience {
     title: string;
     description: string;
   }[];
+  included?: string[];
   destination_id: string;
   related_stay_ids: string[];
 }

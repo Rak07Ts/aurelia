@@ -11,6 +11,7 @@ import { GuestSelector } from '../components/ui/GuestSelector';
 import { Button } from '../components/ui/Button';
 import { PriceDisplay } from '../components/ui/PriceDisplay';
 import { Badge } from '../components/ui/Badge';
+import { SafeImage } from '../components/ui/SafeImage';
 import {
   CheckCircle2,
   ShieldCheck,
@@ -470,10 +471,10 @@ export const BookingPage: React.FC = () => {
           {/* Right Summary Box */}
           <div className="lg:col-span-5 p-8 rounded-[2px] bg-surface-primary border border-border-subtle shadow-subtle space-y-6 sticky top-28">
             <div className="flex items-center gap-4 border-b border-border-subtle pb-6">
-              <img
+              <SafeImage
                 src={selectedStay?.assets.cover}
                 alt={selectedStay?.name}
-                className="w-24 h-20 rounded-[2px] object-cover"
+                className="w-24 h-20 rounded-[2px] object-cover border border-border-default"
               />
               <div>
                 <span className="text-caption uppercase tracking-uppercase text-accent-primary font-medium block">

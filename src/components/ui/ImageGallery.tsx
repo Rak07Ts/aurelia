@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
+import { SafeImage } from './SafeImage';
 import { X, ChevronLeft, ChevronRight, Maximize2 } from 'lucide-react';
 
 interface ImageGalleryProps {
   images: string[];
   title?: string;
-  aspectRatio?: '16:9' | '4:3' | '3:2' | '1:1';
   className?: string;
 }
 
@@ -33,18 +33,18 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
       {/* Main Feature Image */}
       <div
         onClick={() => setIsLightboxOpen(true)}
-        className="relative group h-[380px] sm:h-[480px] md:h-[560px] w-full overflow-hidden rounded-[2px] cursor-pointer bg-palette-ivory_100 border border-border-subtle"
+        className="relative group h-[380px] sm:h-[480px] md:h-[560px] w-full overflow-hidden rounded-[2px] cursor-pointer bg-palette-ivory_100 border border-border-default shadow-subtle"
       >
-        <img
+        <SafeImage
           src={images[activeIndex]}
           alt={`${title} - view ${activeIndex + 1}`}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-between p-6">
-          <span className="text-white text-body-s tracking-wide font-medium">
-            {activeIndex + 1} / {images.length} views
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-between p-6">
+          <span className="text-white text-body-s tracking-wide font-medium text-shadow-subtle">
+            {activeIndex + 1} / {images.length} architectural views
           </span>
-          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-white/20 backdrop-blur-md text-white text-caption uppercase tracking-uppercase font-medium">
+          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-black/40 backdrop-blur-md text-white text-caption uppercase tracking-uppercase font-semibold border border-white/20">
             <Maximize2 size={14} /> Fullscreen Lightbox
           </span>
         </div>
@@ -54,14 +54,14 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
           <>
             <button
               onClick={handlePrev}
-              className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-primary/80 backdrop-blur-md border border-border-subtle flex items-center justify-center text-text-primary opacity-0 group-hover:opacity-100 hover:bg-surface-primary transition-all hover:scale-105"
+              className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-primary/90 backdrop-blur-md border border-border-default flex items-center justify-center text-text-primary opacity-0 group-hover:opacity-100 hover:bg-surface-primary transition-all hover:scale-105 cursor-pointer z-10 shadow-medium"
               aria-label="Previous image"
             >
               <ChevronLeft size={20} />
             </button>
             <button
               onClick={handleNext}
-              className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-primary/80 backdrop-blur-md border border-border-subtle flex items-center justify-center text-text-primary opacity-0 group-hover:opacity-100 hover:bg-surface-primary transition-all hover:scale-105"
+              className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-primary/90 backdrop-blur-md border border-border-default flex items-center justify-center text-text-primary opacity-0 group-hover:opacity-100 hover:bg-surface-primary transition-all hover:scale-105 cursor-pointer z-10 shadow-medium"
               aria-label="Next image"
             >
               <ChevronRight size={20} />
@@ -79,11 +79,11 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
               onClick={() => setActiveIndex(idx)}
               className={`relative h-20 overflow-hidden rounded-[2px] border-2 transition-all cursor-pointer ${
                 activeIndex === idx
-                  ? 'border-accent-primary ring-2 ring-accent-primary/20 scale-95'
+                  ? 'border-accent-primary ring-2 ring-accent-primary/30 scale-95 opacity-100'
                   : 'border-transparent opacity-70 hover:opacity-100'
               }`}
             >
-              <img src={img} alt="" className="w-full h-full object-cover" />
+              <SafeImage src={img} alt="" className="w-full h-full object-cover" />
             </button>
           ))}
         </div>
@@ -92,9 +92,9 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
       {/* Lightbox Modal */}
       {isLightboxOpen && (
         <div className="fixed inset-0 z-50 bg-black/95 backdrop-blur-xl flex flex-col items-center justify-between p-6 animate-in fade-in duration-300">
-          <div className="w-full flex items-center justify-between text-white">
+          <div className="w-full flex items-center justify-between text-white max-w-6xl">
             <span className="font-display text-heading-s">{title}</span>
-            <span className="text-body-s opacity-70">{activeIndex + 1} of {images.length}</span>
+            <span className="text-body-s opacity-80">{activeIndex + 1} of {images.length}</span>
             <button
               onClick={() => setIsLightboxOpen(false)}
               className="p-2 rounded-full hover:bg-white/10 text-white transition-colors cursor-pointer"
@@ -104,7 +104,7 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
           </div>
 
           <div className="relative max-w-6xl max-h-[78vh] flex items-center justify-center">
-            <img
+            <SafeImage
               src={images[activeIndex]}
               alt=""
               className="max-h-[75vh] max-w-full object-contain rounded-[2px] shadow-2xl"
@@ -113,13 +113,13 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
               <>
                 <button
                   onClick={handlePrev}
-                  className="absolute -left-14 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                  className="absolute -left-14 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer"
                 >
                   <ChevronLeft size={28} />
                 </button>
                 <button
                   onClick={handleNext}
-                  className="absolute -right-14 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                  className="absolute -right-14 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer"
                 >
                   <ChevronRight size={28} />
                 </button>
@@ -127,17 +127,17 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
             )}
           </div>
 
-          {/* Bottom Thumbnails in Lightbox */}
+          {/* Bottom Thumbnails */}
           <div className="flex gap-2 overflow-x-auto max-w-xl pb-2">
             {images.map((img, idx) => (
               <button
                 key={idx}
                 onClick={() => setActiveIndex(idx)}
-                className={`w-14 h-14 rounded overflow-hidden flex-shrink-0 border-2 transition-all ${
-                  activeIndex === idx ? 'border-white scale-105' : 'border-transparent opacity-40 hover:opacity-80'
+                className={`w-14 h-14 rounded overflow-hidden flex-shrink-0 border-2 transition-all cursor-pointer ${
+                  activeIndex === idx ? 'border-white scale-105 opacity-100' : 'border-transparent opacity-40 hover:opacity-80'
                 }`}
               >
-                <img src={img} alt="" className="w-full h-full object-cover" />
+                <SafeImage src={img} alt="" className="w-full h-full object-cover" />
               </button>
             ))}
           </div>

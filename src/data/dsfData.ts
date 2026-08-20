@@ -37,6 +37,7 @@ export const DESTINATIONS: Destination[] = [
       quote: "True luxury is the space to notice the slow falling of a maple leaf.",
       quote_author: "Kenjiro Sano, Resident Architect"
     },
+    // High-res editorial architecture & misty mountain nature
     hero: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1600&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1200&auto=format&fit=crop",
@@ -80,7 +81,7 @@ export const DESTINATIONS: Destination[] = [
     culture_note: "Grounded in agrarian craftsmanship, slow cooking, and Renaissance spatial balance.",
     map_coordinates: { lat: 43.0562, lng: 11.6042, zoom: 12 },
     stay_ids: ["stay-val-dorcia-estate", "stay-chianti-terrace"],
-    experience_ids: ["exp-biodynamic-wine", "exp-travertine-baths"],
+    experience_ids: ["exp-biodynamic-wine"],
     article_ids: ["art-materials-of-memory"]
   },
   {
@@ -110,8 +111,8 @@ export const DESTINATIONS: Destination[] = [
     climate: "Nordic Maritime Sub-Arctic",
     culture_note: "Embodying Friluftsliv (outdoor open-air living) and Nordic shelter craftsmanship.",
     map_coordinates: { lat: 62.1983, lng: 6.9892, zoom: 11 },
-    stay_ids: ["stay-fjord-cliffside", "stay-lofoten-hideaway"],
-    experience_ids: ["exp-arctic-sauna-ritual", "exp-foraged-nordic-feast"],
+    stay_ids: ["stay-fjord-cliffside"],
+    experience_ids: ["exp-arctic-sauna-ritual"],
     article_ids: ["art-the-craft-of-silence"]
   },
   {
@@ -171,7 +172,7 @@ export const DESTINATIONS: Destination[] = [
     culture_note: "Echoing the pure sculptural geometry of ancient Cycladic idols.",
     map_coordinates: { lat: 36.9744, lng: 25.1055, zoom: 12 },
     stay_ids: ["stay-cycladic-cliff"],
-    experience_ids: ["exp-aegean-botanical"],
+    experience_ids: [],
     article_ids: ["art-architecture-of-shadows"]
   },
   {
@@ -201,7 +202,7 @@ export const DESTINATIONS: Destination[] = [
     culture_note: "Rooted in authentic Amazigh community craft and restorative herbal medicine.",
     map_coordinates: { lat: 31.2589, lng: -7.7725, zoom: 12 },
     stay_ids: ["stay-atlas-kasbah"],
-    experience_ids: ["exp-tadelakt-clay", "exp-atlas-herbalism"],
+    experience_ids: ["exp-tadelakt-clay"],
     article_ids: ["art-materials-of-memory"]
   }
 ];
