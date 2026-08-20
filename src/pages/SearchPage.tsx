@@ -217,7 +217,7 @@ export const SearchPage: React.FC = () => {
               </p>
               <button
                 onClick={() => setQuery('')}
-                className="px-6 py-2.5 bg-accent-primary text-white text-body-s uppercase tracking-uppercase rounded-[2px] font-medium hover:bg-palette-olive_900 transition-colors cursor-pointer"
+                className="px-6 py-2.5 bg-accent-primary text-text-inverse text-body-s uppercase tracking-uppercase rounded-[2px] font-semibold hover:bg-interactive-hover transition-colors cursor-pointer shadow-subtle"
               >
                 Clear Search
               </button>

@@ -88,8 +88,8 @@ export const MobileNavigation: React.FC = () => {
                   onClick={() => setCurrency(c)}
                   className={`py-2 text-center text-body-s rounded border cursor-pointer ${
                     currency === c
-                      ? 'bg-accent-primary text-white border-accent-primary font-medium'
-                      : 'bg-surface-primary text-text-secondary border-border-subtle'
+                      ? 'bg-accent-primary text-text-inverse border-accent-primary font-semibold'
+                      : 'bg-surface-primary text-text-secondary border-border-default font-medium'
                   }`}
                 >
                   {c}

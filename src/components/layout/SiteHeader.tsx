@@ -119,8 +119,8 @@ export const SiteHeader: React.FC = () => {
                     }}
                     className={`w-full px-3 py-1.5 text-body-s text-left rounded cursor-pointer ${
                       currency === c
-                        ? 'bg-accent-primary text-white font-medium'
-                        : 'text-text-primary hover:bg-surface-secondary'
+                        ? 'bg-accent-primary text-text-inverse font-semibold'
+                        : 'text-text-primary hover:bg-surface-secondary font-medium'
                     }`}
                   >
                     {c}

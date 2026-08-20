@@ -90,7 +90,7 @@ export const GuestSelector: React.FC<GuestSelectorProps> = ({ className = '' }) 
           <button
             type="button"
             onClick={() => setIsOpen(false)}
-            className="w-full mt-4 py-2 text-label uppercase tracking-uppercase font-medium bg-accent-primary text-white rounded-[2px] hover:bg-palette-olive_900 transition-colors"
+            className="w-full mt-4 py-2 text-label uppercase tracking-uppercase font-medium bg-accent-primary text-text-inverse rounded-[2px] hover:bg-interactive-hover transition-colors font-semibold shadow-subtle"
           >
             Apply Guests
           </button>

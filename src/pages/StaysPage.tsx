@@ -175,7 +175,7 @@ export const StaysPage: React.FC = () => {
             </p>
             <button
               onClick={handleReset}
-              className="px-6 py-2.5 bg-accent-primary text-white text-body-s uppercase tracking-uppercase font-medium rounded-[2px] hover:bg-palette-olive_900 transition-colors cursor-pointer"
+              className="px-6 py-2.5 bg-accent-primary text-text-inverse text-body-s uppercase tracking-uppercase font-semibold rounded-[2px] hover:bg-interactive-hover transition-colors cursor-pointer shadow-subtle"
             >
               Reset Filters
             </button>

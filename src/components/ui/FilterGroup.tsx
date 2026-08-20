@@ -61,8 +61,8 @@ export const FilterGroup: React.FC<FilterGroupProps> = ({
               onClick={() => onSelectCategory(cat.id)}
               className={`px-3.5 py-1.5 text-body-s rounded-[2px] border transition-all cursor-pointer ${
                 activeCategory === cat.id
-                  ? 'bg-accent-primary text-white border-accent-primary shadow-subtle'
-                  : 'bg-surface-primary text-text-secondary border-border-subtle hover:border-border-default hover:text-text-primary'
+                  ? 'bg-accent-primary text-text-inverse border-accent-primary shadow-subtle font-semibold'
+                  : 'bg-surface-primary text-text-secondary border-border-default hover:border-accent-primary hover:text-text-primary font-medium'
               }`}
             >
               <span>{cat.label}</span>
@@ -87,8 +87,8 @@ export const FilterGroup: React.FC<FilterGroupProps> = ({
                 onClick={() => onSelectPriceRange(range.id)}
                 className={`px-3.5 py-1.5 text-body-s rounded-[2px] border transition-all cursor-pointer ${
                   activePriceRange === range.id
-                    ? 'bg-palette-olive_900 text-white border-palette-olive_900'
-                    : 'bg-surface-primary text-text-secondary border-border-subtle hover:border-border-default'
+                    ? 'bg-accent-primary text-text-inverse border-accent-primary shadow-subtle font-semibold'
+                    : 'bg-surface-primary text-text-secondary border-border-default hover:border-accent-primary hover:text-text-primary font-medium'
                 }`}
               >
                 {range.label}
