@@ -19,21 +19,25 @@
         "Stitch",
         "Figma AI",
         "Claude",
-        "GPT"
+        "GPT",
+        "Antigravity"
       ],
       "image_ai": [
         "Midjourney",
         "DALL-E",
-        "GPT Image"
+        "GPT Image",
+        "Nano banana"
       ],
       "frontend_ai": [
         "Claude",
         "GPT",
-        "Cursor"
+        "Cursor",
+        "Gemini"
       ],
       "motion_ai": [
         "Claude",
-        "GPT"
+        "GPT",
+        "Gemini"
       ]
     },
     "locale": "en-US",
