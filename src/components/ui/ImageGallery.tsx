@@ -33,29 +33,31 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
       {/* Main Feature Image */}
       <div
         onClick={() => setIsLightboxOpen(true)}
-        className="relative group h-[380px] sm:h-[480px] md:h-[560px] w-full overflow-hidden rounded-[2px] cursor-pointer bg-palette-ivory_100 border border-border-default shadow-subtle"
+        className="relative group h-[380px] sm:h-[480px] md:h-[560px] w-full overflow-hidden rounded-[2px] cursor-pointer bg-surface-secondary border border-border-default shadow-subtle"
       >
         <SafeImage
+          key={`main-gallery-img-${activeIndex}`}
           src={images[activeIndex]}
           alt={`${title} - view ${activeIndex + 1}`}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-between p-6">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-between p-6">
           <span className="text-white text-body-s tracking-wide font-medium text-shadow-subtle">
             {activeIndex + 1} / {images.length} architectural views
           </span>
-          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-black/40 backdrop-blur-md text-white text-caption uppercase tracking-uppercase font-semibold border border-white/20">
+          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-black/50 backdrop-blur-md text-white text-caption uppercase tracking-uppercase font-semibold border border-white/20">
             <Maximize2 size={14} /> Fullscreen Lightbox
           </span>
         </div>
 
-        {/* Carousel controls */}
+        {/* Carousel Prev/Next controls */}
         {images.length > 1 && (
           <>
             <button
               onClick={handlePrev}
               className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-primary/90 backdrop-blur-md border border-border-default flex items-center justify-center text-text-primary opacity-0 group-hover:opacity-100 hover:bg-surface-primary transition-all hover:scale-105 cursor-pointer z-10 shadow-medium"
               aria-label="Previous image"
+              type="button"
             >
               <ChevronLeft size={20} />
             </button>
@@ -63,6 +65,7 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
               onClick={handleNext}
               className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface-primary/90 backdrop-blur-md border border-border-default flex items-center justify-center text-text-primary opacity-0 group-hover:opacity-100 hover:bg-surface-primary transition-all hover:scale-105 cursor-pointer z-10 shadow-medium"
               aria-label="Next image"
+              type="button"
             >
               <ChevronRight size={20} />
             </button>
@@ -75,15 +78,16 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
         <div className="grid grid-cols-4 sm:grid-cols-6 gap-3">
           {images.map((img, idx) => (
             <button
-              key={idx}
+              key={`thumb-${idx}`}
+              type="button"
               onClick={() => setActiveIndex(idx)}
               className={`relative h-20 overflow-hidden rounded-[2px] border-2 transition-all cursor-pointer ${
                 activeIndex === idx
-                  ? 'border-accent-primary ring-2 ring-accent-primary/30 scale-95 opacity-100'
-                  : 'border-transparent opacity-70 hover:opacity-100'
+                  ? 'border-accent-primary ring-2 ring-accent-primary/40 scale-95 opacity-100 shadow-subtle'
+                  : 'border-border-default opacity-70 hover:opacity-100'
               }`}
             >
-              <SafeImage src={img} alt="" className="w-full h-full object-cover" />
+              <SafeImage src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
             </button>
           ))}
         </div>
@@ -98,6 +102,7 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
             <button
               onClick={() => setIsLightboxOpen(false)}
               className="p-2 rounded-full hover:bg-white/10 text-white transition-colors cursor-pointer"
+              type="button"
             >
               <X size={24} />
             </button>
@@ -105,8 +110,9 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
 
           <div className="relative max-w-6xl max-h-[78vh] flex items-center justify-center">
             <SafeImage
+              key={`lightbox-img-${activeIndex}`}
               src={images[activeIndex]}
-              alt=""
+              alt={`${title} fullscreen view ${activeIndex + 1}`}
               className="max-h-[75vh] max-w-full object-contain rounded-[2px] shadow-2xl"
             />
             {images.length > 1 && (
@@ -114,12 +120,14 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
                 <button
                   onClick={handlePrev}
                   className="absolute -left-14 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer"
+                  type="button"
                 >
                   <ChevronLeft size={28} />
                 </button>
                 <button
                   onClick={handleNext}
                   className="absolute -right-14 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer"
+                  type="button"
                 >
                   <ChevronRight size={28} />
                 </button>
@@ -131,10 +139,11 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
           <div className="flex gap-2 overflow-x-auto max-w-xl pb-2">
             {images.map((img, idx) => (
               <button
-                key={idx}
+                key={`lightbox-thumb-${idx}`}
+                type="button"
                 onClick={() => setActiveIndex(idx)}
                 className={`w-14 h-14 rounded overflow-hidden flex-shrink-0 border-2 transition-all cursor-pointer ${
-                  activeIndex === idx ? 'border-white scale-105 opacity-100' : 'border-transparent opacity-40 hover:opacity-80'
+                  activeIndex === idx ? 'border-white scale-105 opacity-100 shadow-lg' : 'border-transparent opacity-40 hover:opacity-80'
                 }`}
               >
                 <SafeImage src={img} alt="" className="w-full h-full object-cover" />

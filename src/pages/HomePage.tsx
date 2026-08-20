@@ -138,7 +138,7 @@ export const HomePage: React.FC = () => {
           <MotionReveal variant="fade_left" className="lg:col-span-6">
             <div className="relative rounded-[2px] overflow-hidden border border-border-default bg-surface-secondary shadow-medium">
               <SafeImage
-                src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1200&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1200&auto=format&fit=crop"
                 alt="Hinoki Wood Sanctuary"
                 className="w-full h-[450px] object-cover"
               />

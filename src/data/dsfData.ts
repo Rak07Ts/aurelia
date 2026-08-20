@@ -40,9 +40,9 @@ export const DESTINATIONS: Destination[] = [
     // High-res editorial architecture & misty mountain nature
     hero: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1200&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1528164344705-475426879c0d?q=80&w=1200&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1528164344705-475426879c0d?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1200&auto=format&fit=crop"
     ],
     highlights: ["Natural Sukiya-style Onsen", "Wild Cedar Forest Pavilions", "Centuries-Old Tea Terroirs", "Private Mountain Monasteries"],
     seasonality: "Year-Round (Spectacular Spring Blossom & Autumn Maple Foliage)",
@@ -252,12 +252,12 @@ export const STAYS: Stay[] = [
       highlight_amenities: ["Private Volcanic Onsen", "Dedicated Kaiseki Chef", "Private Moss Garden"]
     },
     assets: {
-      cover: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1200&auto=format&fit=crop",
+      cover: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1200&auto=format&fit=crop",
       gallery: [
         "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1200&auto=format&fit=crop",
         "https://images.unsplash.com/photo-1528164344705-475426879c0d?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1200&auto=format&fit=crop"
       ]
     },
     destination_id: "dest-kyoto",
@@ -564,10 +564,10 @@ export const STAYS: Stay[] = [
       highlight_amenities: ["Open-Air River Onsen", "Private Sunrise Boat", "Master Tea Ritual"]
     },
     assets: {
-      cover: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1200&auto=format&fit=crop",
+      cover: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200&auto=format&fit=crop",
       gallery: [
-        "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1528164344705-475426879c0d?q=80&w=1200&auto=format&fit=crop"
+        "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1200&auto=format&fit=crop"
       ]
     },
     destination_id: "dest-kyoto",
@@ -638,9 +638,9 @@ export const EXPERIENCES: Experience[] = [
     group_size: "Max 4 Guests",
     price: 380,
     currency: "USD",
-    hero: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1200&auto=format&fit=crop",
+    hero: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=1200&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1200&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?q=80&w=1200&auto=format&fit=crop"
     ],
     host: {
       name: "Master Soun Sen",
@@ -782,8 +782,8 @@ export const EDITORIAL_ARTICLES: EditorialArticle[] = [
     read_time: "7 min read",
     cover: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1400&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1200&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1528164344705-475426879c0d?q=80&w=1200&auto=format&fit=crop"
     ],
     content: [
       {
