@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default Editorial Light Theme */
+  --color-bg-primary: #F8F6F1;
+  --color-bg-secondary: #F1EEE7;
+  --color-bg-inverse: #171916;
+  --color-surface-primary: #FFFFFF;
+  --color-surface-secondary: #F1EEE7;
+  --color-surface-inverse: #293126;
+  --color-text-primary: #171916;
+  --color-text-secondary: #817B70;
+  --color-text-inverse: #F8F6F1;
+  --color-text-muted: #817B70;
+  --color-border-subtle: #DDD6C8;
+  --color-border-default: #B9B2A5;
+  --color-border-strong: #817B70;
+  --color-accent-primary: #4E5748;
+  --color-accent-secondary: #9B805B;
+  --color-interactive-default: #4E5748;
+  --color-interactive-hover: #293126;
+  --color-interactive-active: #171916;
+  --color-interactive-inverse: #F8F6F1;
+}
+
+[data-theme="immersive_dark"] {
+  /* Immersive Dark Theme */
+  --color-bg-primary: #171916;
+  --color-bg-secondary: #21251F;
+  --color-bg-inverse: #F8F6F1;
+  --color-surface-primary: #222620;
+  --color-surface-secondary: #2C322A;
+  --color-surface-inverse: #F8F6F1;
+  --color-text-primary: #F8F6F1;
+  --color-text-secondary: #B9B2A5;
+  --color-text-inverse: #171916;
+  --color-text-muted: #817B70;
+  --color-border-subtle: #2D332B;
+  --color-border-default: #434B3E;
+  --color-border-strong: #616B5B;
+  --color-accent-primary: #DDD6C8;
+  --color-accent-secondary: #B89B72;
+  --color-interactive-default: #DDD6C8;
+  --color-interactive-hover: #FFFFFF;
+  --color-interactive-active: #F8F6F1;
+  --color-interactive-inverse: #171916;
+}
+
+[data-theme="earth_retreat"] {
+  /* Earth Retreat Theme */
+  --color-bg-primary: #ECE9DF;
+  --color-bg-secondary: #E1DED2;
+  --color-bg-inverse: #293126;
+  --color-surface-primary: #F5F2E9;
+  --color-surface-secondary: #E5E1D5;
+  --color-surface-inverse: #ECE9DF;
+  --color-text-primary: #293126;
+  --color-text-secondary: #6D7165;
+  --color-text-inverse: #F5F2E9;
+  --color-text-muted: #817B70;
+  --color-border-subtle: #D5D0C2;
+  --color-border-default: #B8B3A4;
+  --color-border-strong: #6D7165;
+  --color-accent-primary: #4E5748;
+  --color-accent-secondary: #8A7350;
+  --color-interactive-default: #4E5748;
+  --color-interactive-hover: #293126;
+  --color-interactive-active: #171916;
+  --color-interactive-inverse: #F5F2E9;
+}
+
+/* Subtle editorial film noise overlay */
+.editorial-grain {
+  background-image: radial-gradient(rgba(0,0,0,0.02) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Typography and smooth transitions */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-default);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-primary);
+}
+
+/* Glassmorphic header utility */
+.glass-header {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: color-mix(in srgb, var(--color-bg-primary) 85%, transparent);
+}
+
+/* Image reveal / zoom animations */
+.img-zoom {
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.group:hover .img-zoom {
+  transform: scale(1.05);
+}
+
+/* Dropcap for editorial journal */
+.dropcap::first-letter {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  float: left;
+  font-size: 4.2rem;
+  line-height: 0.8;
+  padding-top: 4px;
+  padding-right: 12px;
+  padding-bottom: 2px;
+  color: var(--color-accent-primary);
+}
