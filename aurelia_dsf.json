@@ -1,0 +1,3883 @@
+{
+  "meta": {
+    "schema": "DSF",
+    "schema_version": "1.2.0",
+    "document_version": "1.0.0",
+    "project_name": "AURELIA",
+    "project_id": "aurelia-hospitality",
+    "description": "A contemporary luxury hospitality brand focused on meaningful stays, distinctive places, wellness, culture, and curated experiences.",
+    "author": {
+      "name": "Mahay Vava",
+      "organization": "Mahay Vava",
+      "contact": ""
+    },
+    "created_at": "2026-08-20",
+    "updated_at": "2026-08-20",
+    "status": "draft",
+    "compatibility": {
+      "design_ai": [
+        "Stitch",
+        "Figma AI",
+        "Claude",
+        "GPT"
+      ],
+      "image_ai": [
+        "Midjourney",
+        "DALL-E",
+        "GPT Image"
+      ],
+      "frontend_ai": [
+        "Claude",
+        "GPT",
+        "Cursor"
+      ],
+      "motion_ai": [
+        "Claude",
+        "GPT"
+      ]
+    },
+    "locale": "en-US",
+    "units": {
+      "spacing": "px",
+      "font": "px",
+      "border_radius": "px",
+      "elevation": "dp",
+      "duration": "ms",
+      "distance": "px",
+      "angle": "deg",
+      "scale": "ratio"
+    },
+    "coordinate_system": "css",
+    "extensions": {}
+  },
+  "brand": {
+    "identity": {
+      "name": "AURELIA",
+      "category": "Luxury Hospitality",
+      "industry": "Hospitality, Travel & Wellness",
+      "short_description": "A contemporary hospitality brand creating distinctive stays shaped by place, architecture, nature, culture, and wellbeing.",
+      "mission": "To create meaningful stays that connect people with places, culture, nature, and themselves.",
+      "vision": "To redefine hospitality as a deeper relationship between place, people, and experience."
+    },
+    "positioning": {
+      "market_position": "Contemporary luxury hospitality",
+      "unique_value": "AURELIA creates deeply curated stays where architecture, local character, wellbeing, and thoughtful hospitality come together.",
+      "differentiation": "Rather than treating accommodation as the destination itself, AURELIA makes the relationship between the guest, the place, and the experience the core of the stay."
+    },
+    "personality": [
+      "quiet",
+      "refined",
+      "sensory",
+      "architectural",
+      "warm",
+      "confident",
+      "contemplative",
+      "curated",
+      "modern",
+      "human"
+    ],
+    "values": [
+      "meaningful experiences",
+      "respect for place",
+      "thoughtful hospitality",
+      "craftsmanship",
+      "wellbeing",
+      "authenticity",
+      "curiosity",
+      "simplicity",
+      "sustainability",
+      "human connection"
+    ],
+    "audience": {
+      "primary": [
+        "design-conscious travelers",
+        "luxury travelers seeking authentic experiences",
+        "wellness-oriented travelers",
+        "culturally curious travelers"
+      ],
+      "secondary": [
+        "couples",
+        "creative professionals",
+        "executives seeking restorative travel",
+        "private retreat guests",
+        "experience-driven families"
+      ],
+      "expectations": [
+        "exceptional hospitality",
+        "distinctive environments",
+        "seamless digital experiences",
+        "authentic local experiences",
+        "high-quality visual presentation",
+        "privacy and comfort",
+        "clarity and transparency",
+        "personalized recommendations"
+      ]
+    },
+    "voice": {
+      "tone": [
+        "calm",
+        "confident",
+        "warm",
+        "refined",
+        "evocative",
+        "human",
+        "concise"
+      ],
+      "communication_style": "AURELIA communicates with understated confidence. Language is concise, sensory, intentional, and evocative without becoming overly poetic or commercially aggressive.",
+      "avoid": [
+        "aggressive sales language",
+        "generic luxury clichés",
+        "excessive superlatives",
+        "false exclusivity",
+        "corporate jargon",
+        "tourism clichés",
+        "overly promotional language",
+        "pretentious language",
+        "artificial urgency"
+      ]
+    },
+    "emotions": {
+      "primary": [
+        "serenity",
+        "desire",
+        "curiosity",
+        "belonging"
+      ],
+      "secondary": [
+        "wonder",
+        "trust",
+        "anticipation",
+        "inspiration",
+        "connection"
+      ]
+    },
+    "keywords": [
+      "quiet luxury",
+      "hospitality",
+      "place",
+      "experience",
+      "wellness",
+      "architecture",
+      "nature",
+      "culture",
+      "slow living",
+      "craft",
+      "discovery",
+      "retreat",
+      "connection",
+      "curated travel"
+    ],
+    "competitors": {
+      "inspiration": [
+        "Aman",
+        "Six Senses",
+        "1 Hotels",
+        "Ace Hotel",
+        "Soho House"
+      ],
+      "avoid_similarity": [
+        "generic luxury hotel aesthetics",
+        "overuse of gold and black",
+        "traditional resort visual clichés",
+        "generic booking-platform layouts",
+        "stock photography aesthetics",
+        "excessive ornamental decoration"
+      ]
+    },
+    "restrictions": [
+      "Do not portray luxury through excessive ornamentation.",
+      "Do not rely on gold, black, or metallic effects as automatic indicators of luxury.",
+      "Do not use generic hotel imagery without a clear sense of place.",
+      "Do not use aggressive promotional language.",
+      "Do not sacrifice usability for visual spectacle.",
+      "Do not make exclusivity the primary expression of premium positioning.",
+      "Do not use visual trends that conflict with the timeless character of the brand."
+    ]
+  },
+  "ux": {
+    "objectives": {
+      "primary": "Help visitors discover, evaluate, and confidently book an AURELIA stay that matches their preferences, destination, and desired experience.",
+      "secondary": [
+        "Communicate AURELIA's distinctive hospitality philosophy.",
+        "Create emotional engagement before presenting transactional information.",
+        "Help visitors explore destinations, stays, and experiences without cognitive overload.",
+        "Make the booking journey clear, trustworthy, and frictionless.",
+        "Encourage exploration of related destinations, experiences, and editorial content.",
+        "Build long-term affinity with the AURELIA brand."
+      ],
+      "success_metrics": [
+        "Stay discovery completion rate",
+        "Booking journey completion rate",
+        "Primary CTA interaction rate",
+        "Search and filter engagement",
+        "Destination exploration depth",
+        "Stay detail engagement",
+        "Experience discovery engagement",
+        "Journal content engagement",
+        "Return visitor rate",
+        "Booking abandonment rate",
+        "Mobile booking completion rate"
+      ]
+    },
+    "user_groups": {
+      "primary": [
+        "experience-driven travelers",
+        "design-conscious travelers",
+        "wellness-oriented travelers",
+        "culturally curious travelers"
+      ],
+      "secondary": [
+        "couples planning a getaway",
+        "solo travelers seeking restorative stays",
+        "creative professionals",
+        "executives seeking retreats",
+        "families seeking distinctive accommodations",
+        "guests returning to AURELIA"
+      ]
+    },
+    "journeys": [
+      {
+        "id": "journey_discover",
+        "name": "Discover AURELIA",
+        "goal": "Understand what AURELIA represents and become interested in exploring a stay.",
+        "steps": [
+          "land on the homepage",
+          "understand the brand proposition",
+          "discover featured destinations",
+          "discover the AURELIA philosophy",
+          "explore selected experiences",
+          "enter destination or stay discovery"
+        ]
+      },
+      {
+        "id": "journey_find_stay",
+        "name": "Find a Stay",
+        "goal": "Discover accommodations matching destination, dates, preferences, and experience.",
+        "steps": [
+          "open stay discovery",
+          "select or search a destination",
+          "select travel dates",
+          "select number of guests",
+          "apply relevant filters",
+          "browse matching stays",
+          "compare or inspect individual stays",
+          "select a preferred stay"
+        ]
+      },
+      {
+        "id": "journey_explore_destination",
+        "name": "Explore a Destination",
+        "goal": "Understand the character of a destination before selecting a stay.",
+        "steps": [
+          "discover destination",
+          "explore destination story",
+          "understand local character",
+          "explore architecture and surroundings",
+          "discover local experiences",
+          "discover available stays",
+          "continue toward booking"
+        ]
+      },
+      {
+        "id": "journey_evaluate_stay",
+        "name": "Evaluate a Stay",
+        "goal": "Give visitors enough information and confidence to decide whether a stay is right for them.",
+        "steps": [
+          "open stay detail",
+          "explore imagery",
+          "understand accommodation type",
+          "review key specifications",
+          "review amenities",
+          "review available experiences",
+          "understand location",
+          "review availability and pricing",
+          "initiate booking"
+        ]
+      },
+      {
+        "id": "journey_match",
+        "name": "Find My AURELIA",
+        "goal": "Help uncertain visitors discover suitable stays through guided preferences.",
+        "steps": [
+          "start the guided matching experience",
+          "select travel intent",
+          "select preferred atmosphere",
+          "select destination preferences",
+          "select accommodation preferences",
+          "select budget range",
+          "select desired experiences",
+          "receive personalized matches",
+          "explore recommended stays",
+          "continue toward booking"
+        ]
+      },
+      {
+        "id": "journey_book",
+        "name": "Book a Stay",
+        "goal": "Complete a reservation with minimal friction and clear confirmation.",
+        "steps": [
+          "select a stay",
+          "confirm dates",
+          "confirm guests",
+          "review accommodation",
+          "select optional experiences",
+          "review booking summary",
+          "provide required guest information",
+          "confirm booking",
+          "receive confirmation"
+        ]
+      },
+      {
+        "id": "journey_experience",
+        "name": "Discover Experiences",
+        "goal": "Explore activities and services that enrich the stay.",
+        "steps": [
+          "open experiences",
+          "browse experience categories",
+          "filter or explore experiences",
+          "open an experience",
+          "understand the experience",
+          "discover related destinations or stays",
+          "add the experience to a planned stay or continue exploring"
+        ]
+      },
+      {
+        "id": "journey_journal",
+        "name": "Explore the Journal",
+        "goal": "Deepen engagement with AURELIA through stories, guides, and editorial content.",
+        "steps": [
+          "discover a journal story",
+          "read or explore the story",
+          "discover related destinations",
+          "discover related experiences",
+          "continue exploring AURELIA"
+        ]
+      },
+      {
+        "id": "journey_returning_guest",
+        "name": "Return to AURELIA",
+        "goal": "Help returning visitors quickly reconnect with previous interests and continue their journey.",
+        "steps": [
+          "return to AURELIA",
+          "recognize relevant destinations or stays",
+          "review saved or previously explored content",
+          "discover new experiences",
+          "continue toward a new stay or experience"
+        ]
+      }
+    ],
+    "information_structure": {
+      "hierarchy": [
+        "AURELIA",
+        "Destinations",
+        "Stays",
+        "Experiences",
+        "Journal",
+        "About",
+        "Booking"
+      ],
+      "navigation_priority": [
+        "Book",
+        "Stays",
+        "Destinations",
+        "Experiences",
+        "Journal",
+        "About"
+      ]
+    },
+    "conversion": {
+      "primary_cta": "Book your stay",
+      "secondary_cta": "Explore stays",
+      "micro_conversions": [
+        "Explore a destination",
+        "Open a stay",
+        "Apply a filter",
+        "Start Find My AURELIA",
+        "View an experience",
+        "Read a journal story",
+        "Save a stay",
+        "Share a stay",
+        "Check availability",
+        "Start booking"
+      ]
+    },
+    "content_strategy": {
+      "content_priority": [
+        "destination",
+        "stay",
+        "experience",
+        "availability",
+        "booking information",
+        "brand story",
+        "visual storytelling",
+        "local context",
+        "wellness",
+        "journal"
+      ],
+      "reading_flow": "Visual immersion first, contextual understanding second, practical information third, conversion last.",
+      "content_density": "Low to moderate, with strong visual hierarchy and intentional moments of higher informational density where decision-making requires detail."
+    },
+    "interaction_principles": [
+      "Let users explore before asking them to commit.",
+      "Keep the primary action visually and behaviorally clear.",
+      "Use progressive disclosure for complex information.",
+      "Preserve context when moving between destinations, stays, and experiences.",
+      "Allow users to move between emotional discovery and practical information without losing their place.",
+      "Make important information scannable before requiring deeper reading.",
+      "Use imagery as a navigation and storytelling tool, not merely decoration.",
+      "Make filters understandable and reversible.",
+      "Provide immediate feedback for interactive actions.",
+      "Never make motion necessary to understand an interaction.",
+      "Maintain predictable navigation across all page types.",
+      "Minimize unnecessary steps during booking.",
+      "Expose availability and pricing clearly before final commitment.",
+      "Support exploration without creating dead ends.",
+      "Provide meaningful recommendations based on the current context.",
+      "Preserve accessibility across all interaction modes."
+    ],
+    "accessibility": {
+      "target_standard": "WCAG 2.2 AA",
+      "inclusive_design": true
+    }
+  },
+  "design_system": {
+    "foundations": {
+      "design_style": "Contemporary quiet luxury with an editorial, architectural, tactile, and human-centered character.",
+      "theme_strategy": "A restrained multi-theme system built around a light editorial base, a deep immersive theme, and contextual theme variations derived from declared design tokens. Theme changes must preserve hierarchy, accessibility, and brand consistency.",
+      "density": "Low to moderate density. Large visual fields, generous whitespace, deliberate content grouping, and higher information density only where users are making practical decisions.",
+      "border_style": "Minimal and refined. Borders should primarily clarify structure, grouping, or interaction states rather than serve as decoration."
+    },
+    "layout": {
+      "grid": {
+        "type": "responsive_fluid",
+        "columns": {
+          "desktop": 12,
+          "tablet": 8,
+          "mobile": 4
+        },
+        "max_content_width": "1440px",
+        "outer_margin_strategy": "fluid_with_minimum_safe_margin"
+      },
+      "container": {
+        "max_width": "1440px",
+        "wide_max_width": "1600px",
+        "reading_max_width": "760px",
+        "fluid": true,
+        "horizontal_padding": {
+          "desktop": "48px",
+          "tablet": "32px",
+          "mobile": "20px"
+        }
+      },
+      "columns": {
+        "desktop": {
+          "count": 12,
+          "gutter": "24px"
+        },
+        "tablet": {
+          "count": 8,
+          "gutter": "20px"
+        },
+        "mobile": {
+          "count": 4,
+          "gutter": "16px"
+        }
+      },
+      "gutter": {
+        "desktop": "24px",
+        "tablet": "20px",
+        "mobile": "16px"
+      }
+    },
+    "responsive": {
+      "breakpoints": {
+        "mobile": "0px",
+        "mobile_large": "480px",
+        "tablet": "768px",
+        "desktop": "1024px",
+        "desktop_large": "1280px",
+        "wide": "1440px"
+      },
+      "behavior": {
+        "layout": {
+          "desktop": "Use the full grid system, large visual compositions, layered media, and generous horizontal spacing.",
+          "tablet": "Reduce composition complexity, preserve hierarchy, and progressively simplify multi-column layouts.",
+          "mobile": "Prioritize vertical flow, readability, touch interaction, and content hierarchy. Replace complex compositions with simpler sequential layouts."
+        },
+        "navigation": {
+          "desktop": "Full navigation with persistent access to primary actions.",
+          "tablet": "Condensed navigation with preserved primary actions.",
+          "mobile": "Compact navigation with direct access to booking and essential discovery paths."
+        },
+        "imagery": {
+          "desktop": "Use immersive landscape and architectural compositions where appropriate.",
+          "tablet": "Preserve focal subjects while reducing cropping complexity.",
+          "mobile": "Prioritize subject visibility, semantic cropping, and fast-loading image variants."
+        },
+        "motion": {
+          "desktop": "Allow the full declared motion system where performance permits.",
+          "tablet": "Reduce simultaneous motion and simplify complex scenes.",
+          "mobile": "Prefer simple transitions, disable most parallax, and replace complex pinned scenes with static or sequential alternatives.",
+          "reduced_motion": "Disable non-essential transforms, parallax, continuous animation, and complex scene transitions while preserving content order and functionality."
+        }
+      }
+    },
+    "motion": {
+      "principles": [
+        "Motion should feel calm, deliberate, spatial, and tactile.",
+        "Large visual transitions should feel slower than interface feedback.",
+        "Primary content should move before decorative elements.",
+        "Image motion should remain subtle and preserve photographic realism.",
+        "Scroll-driven motion should support storytelling rather than create spectacle.",
+        "Transitions between related content should communicate continuity.",
+        "Booking and utility interactions should prioritize speed over theatrical motion.",
+        "Motion intensity should increase only when the narrative or spatial relationship justifies it.",
+        "Complex motion should never compromise perceived performance.",
+        "The visual rhythm of motion should reinforce AURELIA's quiet and refined character."
+      ],
+      "transition_rules": [
+        {
+          "id": "aurelia_navigation_transition",
+          "duration_token": "motion.duration.normal",
+          "easing_token": "motion.easing.standard"
+        },
+        {
+          "id": "aurelia_content_transition",
+          "duration_token": "motion.duration.slow",
+          "easing_token": "motion.easing.emphasized"
+        },
+        {
+          "id": "aurelia_micro_interaction",
+          "duration_token": "motion.duration.fast",
+          "easing_token": "motion.easing.standard"
+        },
+        {
+          "id": "aurelia_scene_transition",
+          "duration_token": "motion.duration.very_slow",
+          "easing_token": "motion.easing.emphasized"
+        }
+      ],
+      "animation_rules": [
+        {
+          "id": "aurelia_reveal",
+          "allowed": true,
+          "trigger": "viewport_entry",
+          "preferred_variants": [
+            "fade",
+            "fade_up",
+            "scale"
+          ]
+        },
+        {
+          "id": "aurelia_image",
+          "allowed": true,
+          "preferred_variants": [
+            "zoom",
+            "drift",
+            "pan"
+          ]
+        },
+        {
+          "id": "aurelia_hover",
+          "allowed": true,
+          "preferred_variants": [
+            "lift",
+            "scale",
+            "opacity"
+          ]
+        },
+        {
+          "id": "aurelia_parallax",
+          "allowed": true,
+          "intensity": "subtle",
+          "usage": [
+            "hero_media",
+            "destination_media",
+            "editorial_backgrounds"
+          ]
+        }
+      ],
+      "interaction_rules": [
+        "Every interactive element must provide clear visual feedback.",
+        "Hover behavior must have a keyboard and touch-safe equivalent.",
+        "Motion must not be required to identify interactive elements.",
+        "Focus states must remain independently visible.",
+        "Interactive feedback must be faster than narrative motion.",
+        "Motion must never obstruct booking, navigation, or form completion."
+      ],
+      "scroll_rules": [
+        "Scroll motion should reinforce narrative progression.",
+        "Hero scenes may use subtle progressive motion.",
+        "Pinned scenes are allowed only when they communicate meaningful spatial or narrative relationships.",
+        "Parallax should remain subtle and non-essential.",
+        "Scroll-driven scenes must provide simplified responsive alternatives.",
+        "Scroll behavior must never trap or hijack the user."
+      ],
+      "reduced_motion": {
+        "supported": true,
+        "strategy": "reduce_non_essential_motion",
+        "disable_parallax": true,
+        "disable_continuous_animation": true,
+        "disable_complex_scene_transitions": true,
+        "preserve_opacity_transitions": true,
+        "preserve_functionality": true,
+        "preserve_content_order": true
+      }
+    },
+    "iconography": {
+      "style": "Minimal contemporary line iconography.",
+      "stroke_style": "Light to regular stroke with consistent visual weight.",
+      "corner_style": "Soft geometric corners with restrained rounding.",
+      "usage_rules": [
+        "Icons should clarify actions or information rather than decorate empty space.",
+        "Icons must remain visually subordinate to typography.",
+        "Icons must use consistent stroke weight.",
+        "Icons must have accessible labels when their meaning is not visually obvious.",
+        "Decorative icons must not replace semantic text.",
+        "Navigation icons must remain recognizable at small sizes."
+      ]
+    },
+    "imagery": {
+      "style": "Editorial luxury hospitality photography combining architecture, landscape, interiors, tactile details, food, wellness, and understated human presence.",
+      "composition_rules": [
+        "Favor strong architectural geometry and intentional negative space.",
+        "Use asymmetrical compositions when they strengthen visual rhythm.",
+        "Preserve a clear focal subject.",
+        "Allow imagery to breathe rather than filling every available area.",
+        "Use environmental context to establish a sense of place.",
+        "Combine wide establishing imagery with intimate detail photography.",
+        "Avoid excessive visual staging."
+      ],
+      "treatment_rules": [
+        "Maintain natural and believable lighting.",
+        "Use restrained color grading.",
+        "Preserve material texture and photographic detail.",
+        "Avoid excessive HDR or artificial sharpness.",
+        "Avoid heavy overlays unless required for legibility.",
+        "Use subtle tonal treatments consistently across the brand."
+      ],
+      "usage_rules": [
+        "Images must communicate place, atmosphere, or experience.",
+        "Hero imagery should establish emotional context immediately.",
+        "Product-like stay imagery must clearly communicate the accommodation.",
+        "Editorial imagery may be more expressive than transactional imagery.",
+        "Decorative imagery must never obscure essential information.",
+        "Image selection should prioritize authenticity over generic luxury aesthetics."
+      ]
+    },
+    "design_principles": [
+      "Create atmosphere before presenting information.",
+      "Use whitespace as an active compositional element.",
+      "Let typography and imagery carry most of the visual expression.",
+      "Prefer restraint over decoration.",
+      "Create hierarchy through scale, spacing, contrast, and rhythm.",
+      "Use asymmetry deliberately rather than mechanically.",
+      "Make practical information immediately understandable when users need it.",
+      "Design for calm exploration rather than constant stimulation.",
+      "Use motion to reinforce spatial and narrative relationships.",
+      "Maintain strong visual continuity between pages.",
+      "Favor timeless composition over short-lived visual trends.",
+      "Keep interaction patterns predictable even when visual compositions are expressive.",
+      "Preserve accessibility and usability at every level of visual sophistication."
+    ]
+  },
+  "design_tokens": {
+    "colors": {
+      "palette": {
+        "ivory_50": "#F8F6F1",
+        "ivory_100": "#F1EEE7",
+        "sand_200": "#DDD6C8",
+        "stone_300": "#B9B2A5",
+        "stone_500": "#817B70",
+        "olive_700": "#4E5748",
+        "olive_900": "#293126",
+        "charcoal_950": "#171916",
+        "white": "#FFFFFF",
+        "black": "#000000",
+        "bronze_500": "#9B805B"
+      },
+      "semantic": {
+        "background_primary": "ivory_50",
+        "background_secondary": "ivory_100",
+        "background_inverse": "charcoal_950",
+        "surface_primary": "white",
+        "surface_secondary": "ivory_100",
+        "surface_inverse": "olive_900",
+        "text_primary": "charcoal_950",
+        "text_secondary": "stone_500",
+        "text_inverse": "ivory_50",
+        "text_muted": "stone_500",
+        "border_subtle": "sand_200",
+        "border_default": "stone_300",
+        "border_strong": "stone_500",
+        "accent_primary": "olive_700",
+        "accent_secondary": "bronze_500",
+        "interactive_default": "olive_700",
+        "interactive_hover": "olive_900",
+        "interactive_active": "charcoal_950",
+        "interactive_inverse": "ivory_50"
+      },
+      "states": {
+        "success": "#526B55",
+        "warning": "#A47E42",
+        "error": "#9A5148",
+        "info": "#596F78",
+        "disabled": "#B9B2A5"
+      }
+    },
+    "typography": {
+      "families": {
+        "display": "Cormorant Garamond",
+        "heading": "Cormorant Garamond",
+        "body": "Inter",
+        "ui": "Inter",
+        "mono": "JetBrains Mono"
+      },
+      "scale": {
+        "display_xl": "clamp(64px, 8vw, 128px)",
+        "display_l": "clamp(52px, 6vw, 96px)",
+        "display_m": "clamp(42px, 5vw, 72px)",
+        "heading_xl": "clamp(36px, 4vw, 56px)",
+        "heading_l": "clamp(32px, 3.5vw, 48px)",
+        "heading_m": "clamp(28px, 3vw, 40px)",
+        "heading_s": "clamp(24px, 2.5vw, 32px)",
+        "body_l": "20px",
+        "body_m": "17px",
+        "body_s": "15px",
+        "caption": "13px",
+        "label": "12px"
+      },
+      "weights": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      },
+      "line_height": {
+        "display": 0.95,
+        "heading": 1.05,
+        "body": 1.55,
+        "compact": 1.25,
+        "label": 1.2
+      },
+      "letter_spacing": {
+        "display": "-0.03em",
+        "heading": "-0.02em",
+        "body": "0em",
+        "label": "0.08em",
+        "uppercase": "0.12em"
+      }
+    },
+    "spacing": {
+      "base_unit": 8,
+      "scale": [
+        "4px",
+        "8px",
+        "12px",
+        "16px",
+        "24px",
+        "32px",
+        "40px",
+        "48px",
+        "64px",
+        "80px",
+        "96px",
+        "120px",
+        "160px",
+        "200px"
+      ]
+    },
+    "sizing": {
+      "radius": {
+        "none": "0px",
+        "small": "2px",
+        "medium": "4px",
+        "large": "8px",
+        "pill": "999px"
+      },
+      "icons": {
+        "xs": "14px",
+        "small": "18px",
+        "medium": "24px",
+        "large": "32px",
+        "xl": "48px"
+      },
+      "buttons": {
+        "small_height": "40px",
+        "medium_height": "48px",
+        "large_height": "56px",
+        "horizontal_padding": "24px"
+      },
+      "inputs": {
+        "small_height": "40px",
+        "medium_height": "48px",
+        "large_height": "56px"
+      }
+    },
+    "borders": {
+      "widths": {
+        "none": "0px",
+        "thin": "1px",
+        "medium": "2px"
+      },
+      "styles": {
+        "default": "solid",
+        "subtle": "solid",
+        "dashed": "dashed"
+      }
+    },
+    "shadows": {
+      "levels": {
+        "none": "none",
+        "subtle": "0 2px 12px rgba(23, 25, 22, 0.06)",
+        "medium": "0 8px 30px rgba(23, 25, 22, 0.10)",
+        "large": "0 20px 60px rgba(23, 25, 22, 0.14)"
+      }
+    },
+    "effects": {
+      "opacity": {
+        "transparent": 0,
+        "subtle": 0.2,
+        "muted": 0.4,
+        "medium": 0.7,
+        "strong": 0.85,
+        "opaque": 1
+      },
+      "blur": {
+        "none": "0px",
+        "subtle": "4px",
+        "medium": "12px",
+        "large": "24px"
+      },
+      "gradients": {
+        "hero_fade": "linear-gradient(180deg, rgba(23,25,22,0) 35%, rgba(23,25,22,0.72) 100%)",
+        "surface_fade": "linear-gradient(180deg, rgba(248,246,241,0) 0%, rgba(248,246,241,1) 100%)"
+      },
+      "noise": {
+        "enabled": true,
+        "opacity": 0.025,
+        "usage": [
+          "large_background_surfaces",
+          "immersive_sections"
+        ]
+      }
+    },
+    "motion": {
+      "durations": {
+        "instant": "0ms",
+        "fast": "160ms",
+        "normal": "300ms",
+        "slow": "600ms",
+        "very_slow": "1000ms"
+      },
+      "easings": {
+        "linear": "linear",
+        "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "emphasized": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "enter": "cubic-bezier(0, 0, 0.2, 1)",
+        "exit": "cubic-bezier(0.4, 0, 1, 1)"
+      },
+      "distances": {
+        "micro": "4px",
+        "small": "12px",
+        "medium": "24px",
+        "large": "40px"
+      },
+      "scales": {
+        "hover_small": 1.02,
+        "hover_medium": 1.04,
+        "image_zoom": 1.06,
+        "image_zoom_strong": 1.1
+      },
+      "opacity": {
+        "hidden": 0,
+        "reduced": 0.4,
+        "visible": 1
+      },
+      "delays": {
+        "micro": "40ms",
+        "small": "80ms",
+        "medium": "120ms",
+        "large": "200ms"
+      }
+    }
+  },
+  "themes": {
+    "default": {
+      "id": "theme_editorial_light",
+      "inherits": null,
+      "token_overrides": {
+        "colors.background_primary": "#F8F6F1",
+        "colors.background_secondary": "#F1EEE7",
+        "colors.surface_primary": "#FFFFFF",
+        "colors.surface_secondary": "#F1EEE7",
+        "colors.text_primary": "#171916",
+        "colors.text_secondary": "#817B70",
+        "colors.text_muted": "#817B70",
+        "colors.border_subtle": "#DDD6C8",
+        "colors.border_default": "#B9B2A5",
+        "colors.accent_primary": "#4E5748",
+        "colors.accent_secondary": "#9B805B",
+        "colors.interactive_default": "#4E5748",
+        "colors.interactive_hover": "#293126",
+        "colors.interactive_active": "#171916",
+        "colors.interactive_inverse": "#F8F6F1"
+      }
+    },
+    "immersive_dark": {
+      "id": "theme_immersive_dark",
+      "inherits": "theme_editorial_light",
+      "token_overrides": {
+        "colors.background_primary": "#171916",
+        "colors.background_secondary": "#293126",
+        "colors.surface_primary": "#293126",
+        "colors.surface_secondary": "#363E33",
+        "colors.text_primary": "#F8F6F1",
+        "colors.text_secondary": "#B9B2A5",
+        "colors.text_muted": "#817B70",
+        "colors.border_subtle": "#363E33",
+        "colors.border_default": "#4E5748",
+        "colors.accent_primary": "#DDD6C8",
+        "colors.accent_secondary": "#9B805B",
+        "colors.interactive_default": "#F8F6F1",
+        "colors.interactive_hover": "#DDD6C8",
+        "colors.interactive_active": "#FFFFFF",
+        "colors.interactive_inverse": "#171916"
+      }
+    },
+    "earth_retreat": {
+      "id": "theme_earth_retreat",
+      "inherits": "theme_editorial_light",
+      "token_overrides": {
+        "colors.background_primary": "#ECE9DF",
+        "colors.background_secondary": "#E1DED2",
+        "colors.surface_primary": "#F5F2E9",
+        "colors.surface_secondary": "#E1DED2",
+        "colors.text_primary": "#293126",
+        "colors.text_secondary": "#6D7165",
+        "colors.text_muted": "#817B70",
+        "colors.border_subtle": "#D0CCBD",
+        "colors.border_default": "#B1AD9E",
+        "colors.accent_primary": "#4E5748",
+        "colors.accent_secondary": "#8A7350",
+        "colors.interactive_default": "#4E5748",
+        "colors.interactive_hover": "#293126",
+        "colors.interactive_active": "#171916",
+        "colors.interactive_inverse": "#F5F2E9"
+      }
+    }
+  },
+  "visual_language": {
+    "artistic_direction": {
+      "style": "Contemporary editorial hospitality with quiet luxury, architectural minimalism, tactile naturalism, and cinematic restraint.",
+      "era": "Contemporary with timeless references to European editorial design, modernist architecture, and analogue photography.",
+      "references": [
+        "editorial architecture photography",
+        "contemporary hospitality photography",
+        "modernist architectural composition",
+        "independent luxury travel magazines",
+        "analogue medium-format photography",
+        "minimalist art direction"
+      ],
+      "keywords": [
+        "quiet luxury",
+        "architectural",
+        "editorial",
+        "tactile",
+        "natural",
+        "cinematic",
+        "intimate",
+        "timeless",
+        "restrained",
+        "organic",
+        "human",
+        "immersive"
+      ]
+    },
+    "visual_identity": {
+      "character": [
+        "quiet",
+        "refined",
+        "intimate",
+        "confident",
+        "cultured",
+        "warm",
+        "contemporary",
+        "human",
+        "sensory"
+      ],
+      "mood": "Calm, intimate, sophisticated, contemplative, and quietly aspirational.",
+      "visual_signature": "Large editorial compositions combining architectural space, natural materials, restrained typography, human-scale details, and cinematic negative space."
+    },
+    "photography": {
+      "style": "High-end editorial hospitality photography with a documentary sensibility and cinematic restraint.",
+      "subjects": [
+        "architecture",
+        "interiors",
+        "landscapes",
+        "rooms",
+        "natural materials",
+        "food",
+        "wellness",
+        "local culture",
+        "craft",
+        "human presence",
+        "details of daily rituals",
+        "destination environments"
+      ],
+      "composition": [
+        "Use strong architectural geometry.",
+        "Use generous negative space.",
+        "Prefer asymmetrical compositions when appropriate.",
+        "Alternate wide environmental views with intimate details.",
+        "Use human-scale framing to communicate atmosphere.",
+        "Preserve natural depth and spatial relationships.",
+        "Avoid overly centered compositions unless symmetry is architecturally meaningful.",
+        "Allow portions of the environment to remain visually quiet.",
+        "Use foreground elements to create depth when appropriate."
+      ],
+      "camera_language": "Natural perspective, medium-format character, restrained depth of field, realistic spatial proportions, subtle filmic texture, deliberate framing, and occasional wide environmental compositions.",
+      "avoid": [
+        "generic stock photography",
+        "excessive HDR",
+        "oversaturated colors",
+        "artificial luxury clichés",
+        "excessive lens distortion",
+        "unrealistic architecture",
+        "plastic-looking materials",
+        "overly posed people",
+        "forced smiles",
+        "excessive bokeh",
+        "aggressive cinematic color grading",
+        "artificial skin smoothing",
+        "visual clutter",
+        "generic resort imagery"
+      ]
+    },
+    "illustration": {
+      "style": "Minimal editorial illustration with organic geometric forms and refined line work.",
+      "techniques": [
+        "fine line drawing",
+        "architectural contour illustration",
+        "abstract organic shapes",
+        "restrained monochromatic composition",
+        "subtle texture"
+      ],
+      "usage": [
+        "destination maps",
+        "editorial accents",
+        "experience categories",
+        "wayfinding",
+        "decorative section transitions"
+      ]
+    },
+    "composition": {
+      "principles": [
+        "Hierarchy before decoration.",
+        "Whitespace is an active visual element.",
+        "Large imagery should establish atmosphere before detail.",
+        "Typography should create rhythm rather than fill space.",
+        "Use contrast in scale to create visual tension.",
+        "Combine rigid architectural structure with organic visual elements.",
+        "Allow compositions to breathe.",
+        "Use repetition sparingly and intentionally.",
+        "Maintain a clear focal point.",
+        "Use transitions between dense and sparse sections to control visual rhythm."
+      ],
+      "balance": "Asymmetrical but controlled, combining architectural structure with organic visual rhythm.",
+      "whitespace": "Generous and intentional. Empty space should create pacing, hierarchy, and perceived value rather than simply increasing distance between elements."
+    },
+    "atmosphere": {
+      "keywords": [
+        "quiet",
+        "warm",
+        "natural",
+        "slow",
+        "immersive",
+        "refined",
+        "sensory",
+        "restorative",
+        "cultured",
+        "grounded"
+      ],
+      "emotional_direction": [
+        "curiosity",
+        "calm",
+        "desire to explore",
+        "trust",
+        "belonging",
+        "anticipation",
+        "restoration"
+      ]
+    },
+    "materials": {
+      "preferred": [
+        "natural stone",
+        "travertine",
+        "limestone",
+        "aged wood",
+        "linen",
+        "raw ceramic",
+        "brushed metal",
+        "handcrafted glass",
+        "natural fibers",
+        "plaster",
+        "earth",
+        "water",
+        "vegetation"
+      ],
+      "avoid": [
+        "plastic-looking surfaces",
+        "synthetic luxury materials",
+        "excessive polished marble",
+        "chrome-heavy interiors",
+        "generic glossy finishes",
+        "artificial decorative textures"
+      ]
+    },
+    "lighting": {
+      "style": "Natural cinematic light with soft directional illumination and subtle tonal depth.",
+      "direction": "Prefer side lighting, window light, dawn light, late afternoon light, and controlled interior practical lighting.",
+      "contrast": "Low to moderate contrast with preserved shadow detail and restrained highlights."
+    },
+    "typography_expression": {
+      "character": [
+        "editorial",
+        "elegant",
+        "literary",
+        "confident",
+        "quiet",
+        "contemporary"
+      ],
+      "hierarchy": "Strong contrast between expressive display typography and restrained functional interface typography.",
+      "usage": "Display typography creates atmosphere and narrative hierarchy; interface typography prioritizes clarity, scanning, navigation, pricing, forms, and booking."
+    },
+    "visual_rules": [
+      "Never use decoration without a compositional or semantic purpose.",
+      "Photography must feel authentic rather than staged.",
+      "Visual hierarchy must remain understandable without motion.",
+      "Large typography should coexist with generous negative space.",
+      "Use color restraint across all visual compositions.",
+      "Prefer natural textures over artificial effects.",
+      "Do not combine multiple competing visual treatments in the same section.",
+      "Human presence should communicate scale, emotion, or ritual rather than function as decoration.",
+      "Architecture should be represented realistically.",
+      "Visual transitions between sections should feel intentional.",
+      "Use the darkest tones primarily to create depth and contrast.",
+      "Bronze should remain a restrained accent rather than a dominant color.",
+      "Do not allow visual sophistication to reduce accessibility or readability.",
+      "All generated imagery must remain compatible with the declared brand identity."
+    ],
+    "ai_generation": {
+      "prompt_style": "Structured editorial art-direction prompts describing subject, environment, composition, lighting, materiality, camera language, emotional direction, and visual constraints.",
+      "keywords": [
+        "editorial hospitality photography",
+        "architectural minimalism",
+        "quiet luxury",
+        "natural materials",
+        "cinematic natural light",
+        "medium-format photography",
+        "restrained color palette",
+        "generous negative space",
+        "authentic human presence",
+        "tactile textures",
+        "timeless composition",
+        "contemporary architecture"
+      ],
+      "negative_keywords": [
+        "stock photo",
+        "generic luxury resort",
+        "oversaturated",
+        "HDR",
+        "plastic materials",
+        "fake architecture",
+        "excessive bokeh",
+        "over-staged",
+        "overcrowded",
+        "glossy commercial aesthetic",
+        "artificial skin",
+        "neon colors",
+        "excessive gold",
+        "visual clutter",
+        "distorted perspective",
+        "unrealistic proportions"
+      ]
+    }
+  },
+  "asset_library": {
+    "assets": [
+      {
+        "id": "asset_brand_logo_primary",
+        "type": "logo",
+        "category": "brand",
+        "role": "primary_brand_mark",
+        "format": [
+          "svg",
+          "png"
+        ],
+        "variants": [
+          "light",
+          "dark",
+          "compact"
+        ],
+        "usage": [
+          "header",
+          "footer",
+          "loading",
+          "navigation"
+        ],
+        "constraints": [
+          "preserve_aspect_ratio",
+          "do_not_distort",
+          "do_not_recolor_without_theme_reference"
+        ]
+      },
+      {
+        "id": "asset_hero_destination",
+        "type": "image",
+        "category": "destination",
+        "role": "hero",
+        "variants": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "preferred_ratio": "16:9",
+        "usage": [
+          "destination_hero",
+          "immersive_sections"
+        ],
+        "motion": {
+          "allowed": true,
+          "preferred": [
+            "motion_image",
+            "motion_parallax"
+          ]
+        }
+      },
+      {
+        "id": "asset_stay_cover",
+        "type": "image",
+        "category": "stay",
+        "role": "listing_cover",
+        "variants": [
+          "desktop",
+          "tablet",
+          "mobile",
+          "thumbnail"
+        ],
+        "preferred_ratio": "4:3",
+        "usage": [
+          "stay_cards",
+          "search_results",
+          "featured_stays"
+        ],
+        "motion": {
+          "allowed": true,
+          "preferred": [
+            "motion_image",
+            "motion_hover"
+          ]
+        }
+      },
+      {
+        "id": "asset_stay_gallery",
+        "type": "image_collection",
+        "category": "stay",
+        "role": "stay_gallery",
+        "minimum_items": 4,
+        "preferred_ratio": "4:3",
+        "usage": [
+          "stay_detail",
+          "room_exploration"
+        ],
+        "composition_rules": [
+          "include_at_least_one_environmental_view",
+          "include_at_least_one_interior_view",
+          "include_at_least_one_detail_view"
+        ]
+      },
+      {
+        "id": "asset_experience_cover",
+        "type": "image",
+        "category": "experience",
+        "role": "experience_cover",
+        "variants": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "preferred_ratio": "3:2",
+        "usage": [
+          "experience_cards",
+          "experience_detail",
+          "recommendations"
+        ]
+      },
+      {
+        "id": "asset_editorial_story",
+        "type": "image_collection",
+        "category": "editorial",
+        "role": "journal_story",
+        "variants": [
+          "hero",
+          "inline",
+          "thumbnail"
+        ],
+        "usage": [
+          "journal",
+          "destination_story",
+          "editorial_sections"
+        ]
+      },
+      {
+        "id": "asset_destination_map",
+        "type": "illustration",
+        "category": "destination",
+        "role": "contextual_map",
+        "format": [
+          "svg"
+        ],
+        "usage": [
+          "destination_detail",
+          "location_context"
+        ],
+        "constraints": [
+          "must_remain_legible_on_mobile",
+          "must_not_replace_accessible_location_information"
+        ]
+      }
+    ],
+    "categories": [
+      "brand",
+      "destination",
+      "stay",
+      "experience",
+      "editorial",
+      "illustration",
+      "iconography",
+      "interface"
+    ],
+    "sources": [
+      {
+        "id": "source_brand_assets",
+        "type": "brand_repository",
+        "description": "Approved AURELIA brand assets."
+      },
+      {
+        "id": "source_photography",
+        "type": "photography_library",
+        "description": "Approved AURELIA photography and commissioned visual content."
+      },
+      {
+        "id": "source_generated",
+        "type": "ai_generated",
+        "description": "AI-generated assets produced according to AURELIA visual language."
+      },
+      {
+        "id": "source_illustration",
+        "type": "illustration_library",
+        "description": "Approved maps, diagrams, editorial illustrations, and decorative graphics."
+      }
+    ],
+    "generation_rules": {
+      "allowed": true,
+      "require_prompt": true,
+      "require_validation": true
+    },
+    "usage_rules": [
+      "Every production asset must have a declared semantic role.",
+      "Assets must use the closest appropriate responsive variant when available.",
+      "Hero imagery must preserve its declared focal subject across responsive crops.",
+      "Stay imagery must accurately represent the accommodation or experience.",
+      "Editorial imagery may be expressive but must remain consistent with AURELIA visual language.",
+      "Generated imagery must be validated before production use.",
+      "AI-generated imagery must not introduce visual elements that contradict declared brand rules.",
+      "Do not reuse an asset outside its declared semantic role without explicit validation.",
+      "Do not stretch or distort raster imagery.",
+      "Decorative imagery must never contain essential information.",
+      "Images must have meaningful alternative text when they convey information.",
+      "Purely decorative assets should be explicitly marked as decorative.",
+      "Assets should provide appropriate responsive and performance variants.",
+      "Large images must support optimized delivery.",
+      "Asset loading priority must reflect page hierarchy."
+    ],
+    "metadata": {
+      "supported_types": [
+        "svg",
+        "png",
+        "jpg",
+        "jpeg",
+        "webp",
+        "avif",
+        "gif",
+        "video",
+        "illustration",
+        "image_collection"
+      ],
+      "quality_requirements": {
+        "minimum_raster_quality": "sufficient_for_declared_display_size",
+        "preferred_formats": [
+          "avif",
+          "webp",
+          "svg"
+        ],
+        "responsive_variants_required": true,
+        "maximum_unoptimized_large_image_warning": true,
+        "accessibility_metadata_required": true,
+        "semantic_role_required": true
+      }
+    }
+  },
+  "component_library": {
+    "components": [
+      {
+        "id": "motion_reveal",
+        "category": "motion",
+        "type": "behavioral",
+        "description": "Reveals an element when it enters the viewport.",
+        "variants": [
+          "fade",
+          "fade_up",
+          "fade_down",
+          "fade_left",
+          "fade_right",
+          "scale"
+        ],
+        "tokens": {
+          "duration": "motion.duration.normal",
+          "easing": "motion.easing.emphasized",
+          "distance": "motion.distance.medium"
+        },
+        "accessibility": {
+          "reduced_motion": "disable_transform"
+        }
+      },
+      {
+        "id": "motion_image",
+        "category": "motion",
+        "type": "behavioral",
+        "description": "Applies controlled motion to imagery without altering layout.",
+        "variants": [
+          "zoom",
+          "pan",
+          "drift"
+        ],
+        "tokens": {
+          "duration": "motion.duration.slow",
+          "easing": "motion.easing.emphasized",
+          "scale": "motion.scale.image_zoom"
+        },
+        "accessibility": {
+          "reduced_motion": "disable"
+        }
+      },
+      {
+        "id": "motion_hover",
+        "category": "motion",
+        "type": "behavioral",
+        "description": "Provides subtle visual feedback when an interactive element is hovered or focused.",
+        "variants": [
+          "lift",
+          "scale",
+          "opacity",
+          "color"
+        ],
+        "tokens": {
+          "duration": "motion.duration.fast",
+          "easing": "motion.easing.standard",
+          "scale": "motion.scale.hover_small"
+        },
+        "accessibility": {
+          "keyboard_equivalent_required": true
+        }
+      },
+      {
+        "id": "motion_counter",
+        "category": "motion",
+        "type": "behavioral",
+        "description": "Animates a numerical value from a starting point to its final value when entering the viewport.",
+        "variants": [
+          "linear",
+          "ease_out"
+        ],
+        "tokens": {
+          "duration": "motion.duration.slow",
+          "easing": "motion.easing.emphasized"
+        },
+        "accessibility": {
+          "reduced_motion": "show_final_value"
+        }
+      },
+      {
+        "id": "motion_parallax",
+        "category": "motion",
+        "type": "behavioral",
+        "description": "Applies controlled relative movement to decorative or non-essential media during scrolling.",
+        "variants": [
+          "vertical",
+          "horizontal"
+        ],
+        "tokens": {
+          "duration": "motion.duration.very_slow",
+          "distance": "motion.distance.small"
+        },
+        "constraints": [
+          "must_not_affect_layout",
+          "must_not_contain_essential_information",
+          "must_be_disabled_for_reduced_motion"
+        ],
+        "accessibility": {
+          "reduced_motion": "disable"
+        }
+      },
+      {
+        "id": "motion_transform",
+        "category": "motion",
+        "type": "behavioral",
+        "description": "Transforms an element through controlled geometric properties.",
+        "variants": [
+          "translate",
+          "scale",
+          "rotate",
+          "skew",
+          "clip",
+          "mask"
+        ],
+        "tokens": {
+          "duration": "motion.duration.normal",
+          "easing": "motion.easing.standard"
+        },
+        "accessibility": {
+          "reduced_motion": "replace_with_opacity"
+        }
+      },
+      {
+        "id": "motion_sequence",
+        "category": "motion",
+        "type": "orchestration",
+        "description": "Coordinates multiple motion components through an ordered or parallel sequence.",
+        "variants": [
+          "parallel",
+          "sequential",
+          "stagger",
+          "overlap"
+        ],
+        "tokens": {
+          "duration": "motion.duration.normal",
+          "delay": "motion.delay.small"
+        },
+        "accessibility": {
+          "reduced_motion": "simplify"
+        }
+      },
+      {
+        "id": "motion_scene",
+        "category": "motion",
+        "type": "orchestration",
+        "description": "Defines a complete interactive motion scene composed of multiple elements, sequences, states, and transitions.",
+        "variants": [
+          "load_scene",
+          "scroll_scene",
+          "pinned_scene",
+          "interactive_scene",
+          "transition_scene"
+        ],
+        "accessibility": {
+          "reduced_motion": "fallback"
+        }
+      },
+      {
+        "id": "button",
+        "category": "interaction",
+        "type": "control",
+        "description": "Primary interactive control used for actions and conversion.",
+        "variants": [
+          "primary",
+          "secondary",
+          "text",
+          "inverse",
+          "icon"
+        ],
+        "tokens": {
+          "height": "sizing.buttons.medium_height",
+          "radius": "sizing.radius.small",
+          "horizontal_padding": "sizing.buttons.horizontal_padding"
+        },
+        "states": [
+          "default",
+          "hover",
+          "focus",
+          "active",
+          "disabled",
+          "loading"
+        ],
+        "motion": [
+          "motion_hover"
+        ],
+        "accessibility": {
+          "keyboard_accessible": true,
+          "visible_focus_required": true,
+          "loading_state_required": true
+        }
+      },
+      {
+        "id": "text_link",
+        "category": "interaction",
+        "type": "navigation",
+        "description": "Inline or standalone text-based navigation action.",
+        "variants": [
+          "default",
+          "subtle",
+          "inverse",
+          "underlined"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "focus",
+          "active"
+        ],
+        "motion": [
+          "motion_hover"
+        ],
+        "accessibility": {
+          "keyboard_accessible": true,
+          "visible_focus_required": true
+        }
+      },
+      {
+        "id": "badge",
+        "category": "content",
+        "type": "status",
+        "description": "Compact semantic label used to communicate categories, attributes, or states.",
+        "variants": [
+          "default",
+          "accent",
+          "success",
+          "warning",
+          "neutral"
+        ],
+        "tokens": {
+          "radius": "sizing.radius.pill"
+        },
+        "accessibility": {
+          "semantic_meaning_must_not_depend_on_color": true
+        }
+      },
+      {
+        "id": "divider",
+        "category": "layout",
+        "type": "structural",
+        "description": "Visual separator used to establish hierarchy or grouping.",
+        "variants": [
+          "horizontal",
+          "vertical"
+        ],
+        "tokens": {
+          "color": "colors.border_subtle",
+          "width": "borders.widths.thin"
+        }
+      },
+      {
+        "id": "site_header",
+        "category": "navigation",
+        "type": "navigation",
+        "description": "Global AURELIA navigation with persistent access to primary discovery and booking actions.",
+        "variants": [
+          "transparent",
+          "solid",
+          "immersive"
+        ],
+        "responsive": {
+          "desktop": "full_navigation",
+          "tablet": "condensed_navigation",
+          "mobile": "compact_navigation"
+        },
+        "motion": [
+          "motion_transform",
+          "motion_hover"
+        ],
+        "accessibility": {
+          "keyboard_accessible": true,
+          "skip_navigation_required": true,
+          "visible_focus_required": true
+        }
+      },
+      {
+        "id": "mobile_navigation",
+        "category": "navigation",
+        "type": "navigation",
+        "description": "Mobile navigation providing access to primary site sections and booking.",
+        "variants": [
+          "drawer",
+          "fullscreen"
+        ],
+        "motion": [
+          "motion_transform",
+          "motion_sequence"
+        ],
+        "accessibility": {
+          "focus_management_required": true,
+          "keyboard_accessible": true,
+          "escape_to_close": true
+        }
+      },
+      {
+        "id": "breadcrumbs",
+        "category": "navigation",
+        "type": "navigation",
+        "description": "Contextual navigation showing the user's location within the site hierarchy.",
+        "variants": [
+          "default",
+          "inverse"
+        ],
+        "responsive": {
+          "mobile": "collapse_non_essential_levels"
+        },
+        "accessibility": {
+          "semantic_navigation_required": true
+        }
+      },
+      {
+        "id": "hero",
+        "category": "media",
+        "type": "composition",
+        "description": "Large visual introduction establishing page context, atmosphere, and primary action.",
+        "variants": [
+          "image",
+          "split",
+          "editorial",
+          "immersive"
+        ],
+        "media_requirements": [
+          "responsive_asset",
+          "focal_point",
+          "alternative_text"
+        ],
+        "motion": [
+          "motion_reveal",
+          "motion_image",
+          "motion_parallax"
+        ],
+        "accessibility": {
+          "motion_optional": true,
+          "text_contrast_required": true
+        }
+      },
+      {
+        "id": "image",
+        "category": "media",
+        "type": "content",
+        "description": "Responsive image component with semantic and decorative modes.",
+        "variants": [
+          "standard",
+          "full_bleed",
+          "contained",
+          "decorative"
+        ],
+        "responsive": {
+          "supports_art_direction": true,
+          "supports_lazy_loading": true
+        },
+        "motion": [
+          "motion_image",
+          "motion_hover"
+        ],
+        "accessibility": {
+          "alternative_text_required_when_semantic": true,
+          "decorative_mode_supported": true
+        }
+      },
+      {
+        "id": "image_gallery",
+        "category": "media",
+        "type": "collection",
+        "description": "Responsive gallery for exploring a destination, stay, or experience.",
+        "variants": [
+          "grid",
+          "masonry",
+          "carousel",
+          "immersive"
+        ],
+        "responsive": {
+          "desktop": "rich_composition",
+          "mobile": "sequential_gallery"
+        },
+        "motion": [
+          "motion_image",
+          "motion_transform"
+        ],
+        "accessibility": {
+          "keyboard_navigation_required": true,
+          "alternative_text_required": true,
+          "controls_must_be_labeled": true
+        }
+      },
+      {
+        "id": "stay_card",
+        "category": "content",
+        "type": "entity",
+        "description": "Reusable representation of an AURELIA stay.",
+        "variants": [
+          "default",
+          "featured",
+          "compact",
+          "horizontal"
+        ],
+        "content_slots": [
+          "image",
+          "name",
+          "location",
+          "description",
+          "price",
+          "availability",
+          "cta"
+        ],
+        "motion": [
+          "motion_hover",
+          "motion_image",
+          "motion_reveal"
+        ],
+        "accessibility": {
+          "semantic_structure_required": true,
+          "keyboard_accessible": true
+        }
+      },
+      {
+        "id": "destination_card",
+        "category": "content",
+        "type": "entity",
+        "description": "Reusable representation of an AURELIA destination.",
+        "variants": [
+          "default",
+          "featured",
+          "editorial",
+          "compact"
+        ],
+        "content_slots": [
+          "image",
+          "name",
+          "location",
+          "short_description",
+          "stay_count"
+        ],
+        "motion": [
+          "motion_hover",
+          "motion_image",
+          "motion_reveal"
+        ]
+      },
+      {
+        "id": "experience_card",
+        "category": "content",
+        "type": "entity",
+        "description": "Reusable representation of an AURELIA experience.",
+        "variants": [
+          "default",
+          "featured",
+          "compact"
+        ],
+        "content_slots": [
+          "image",
+          "name",
+          "category",
+          "duration",
+          "description",
+          "cta"
+        ],
+        "motion": [
+          "motion_hover",
+          "motion_image",
+          "motion_reveal"
+        ]
+      },
+      {
+        "id": "editorial_card",
+        "category": "content",
+        "type": "content",
+        "description": "Editorial content preview linking to journal and destination stories.",
+        "variants": [
+          "default",
+          "featured",
+          "horizontal"
+        ],
+        "content_slots": [
+          "image",
+          "category",
+          "title",
+          "excerpt",
+          "date",
+          "cta"
+        ],
+        "motion": [
+          "motion_hover",
+          "motion_image",
+          "motion_reveal"
+        ]
+      },
+      {
+        "id": "filter_group",
+        "category": "form",
+        "type": "control_group",
+        "description": "Group of filters used to refine stays, destinations, or experiences.",
+        "variants": [
+          "inline",
+          "sidebar",
+          "drawer",
+          "compact"
+        ],
+        "states": [
+          "default",
+          "expanded",
+          "collapsed",
+          "active"
+        ],
+        "responsive": {
+          "desktop": "inline_or_sidebar",
+          "mobile": "drawer"
+        },
+        "accessibility": {
+          "keyboard_accessible": true,
+          "group_labels_required": true
+        }
+      },
+      {
+        "id": "date_selector",
+        "category": "form",
+        "type": "input",
+        "description": "Date selection control for stay availability and booking.",
+        "variants": [
+          "single",
+          "range"
+        ],
+        "states": [
+          "default",
+          "focus",
+          "selected",
+          "disabled",
+          "error"
+        ],
+        "accessibility": {
+          "keyboard_accessible": true,
+          "screen_reader_support_required": true
+        }
+      },
+      {
+        "id": "guest_selector",
+        "category": "form",
+        "type": "input",
+        "description": "Accessible guest count selector.",
+        "variants": [
+          "compact",
+          "expanded"
+        ],
+        "states": [
+          "default",
+          "focus",
+          "disabled"
+        ],
+        "accessibility": {
+          "keyboard_accessible": true,
+          "minimum_and_maximum_values_must_be_communicated": true
+        }
+      },
+      {
+        "id": "booking_bar",
+        "category": "navigation",
+        "type": "conversion",
+        "description": "Persistent contextual booking control allowing visitors to initiate or continue a booking journey.",
+        "variants": [
+          "hero",
+          "sticky",
+          "inline",
+          "compact"
+        ],
+        "content_slots": [
+          "destination",
+          "dates",
+          "guests",
+          "cta"
+        ],
+        "responsive": {
+          "desktop": "horizontal",
+          "mobile": "stacked_or_drawer"
+        },
+        "motion": [
+          "motion_transform",
+          "motion_hover"
+        ],
+        "accessibility": {
+          "keyboard_accessible": true,
+          "focus_visible": true
+        }
+      },
+      {
+        "id": "price_display",
+        "category": "content",
+        "type": "data",
+        "description": "Semantic display of stay pricing and associated booking information.",
+        "variants": [
+          "default",
+          "compact",
+          "featured"
+        ],
+        "content_slots": [
+          "amount",
+          "currency",
+          "period",
+          "additional_information"
+        ],
+        "accessibility": {
+          "currency_must_be_explicit": true,
+          "period_must_be_explicit": true
+        }
+      },
+      {
+        "id": "amenity_list",
+        "category": "content",
+        "type": "list",
+        "description": "Structured presentation of accommodation or experience amenities.",
+        "variants": [
+          "grid",
+          "list",
+          "compact"
+        ],
+        "accessibility": {
+          "semantic_list_required": true
+        }
+      },
+      {
+        "id": "booking_summary",
+        "category": "form",
+        "type": "summary",
+        "description": "Structured summary of the current booking before confirmation.",
+        "variants": [
+          "default",
+          "compact",
+          "mobile_sticky"
+        ],
+        "content_slots": [
+          "stay",
+          "dates",
+          "guests",
+          "experiences",
+          "price",
+          "total"
+        ],
+        "accessibility": {
+          "semantic_structure_required": true,
+          "important_changes_must_be_announced": true
+        }
+      },
+      {
+        "id": "form_field",
+        "category": "form",
+        "type": "input",
+        "description": "Reusable accessible form field supporting labels, hints, validation, and error messaging.",
+        "variants": [
+          "text",
+          "email",
+          "tel",
+          "textarea",
+          "select"
+        ],
+        "states": [
+          "default",
+          "focus",
+          "filled",
+          "error",
+          "disabled"
+        ],
+        "accessibility": {
+          "label_required": true,
+          "error_association_required": true,
+          "keyboard_accessible": true
+        }
+      }
+    ],
+    "categories": [
+      "motion",
+      "layout",
+      "navigation",
+      "content",
+      "media",
+      "interaction",
+      "form"
+    ],
+    "composition_rules": [
+      "Components must remain composable without requiring page-specific styling.",
+      "Components must consume declared design tokens.",
+      "Content components must separate content data from presentation.",
+      "Motion components may be composed with visual components.",
+      "Motion behavior must inherit project motion tokens.",
+      "Complex motion must be orchestrated through declared sequences or scenes.",
+      "Interactive components must preserve keyboard accessibility.",
+      "Components must not depend on hover as their only interaction mechanism.",
+      "Responsive behavior must be defined when component structure changes across breakpoints.",
+      "Components should expose only meaningful variants.",
+      "Page-specific exceptions must not silently modify the base component."
+    ],
+    "naming_conventions": {
+      "motion_components": "motion_<behavior>",
+      "motion_tokens": "motion.<category>.<name>",
+      "motion_scenes": "scene_<purpose>",
+      "motion_sequences": "sequence_<purpose>",
+      "content_components": "<entity>_<presentation>",
+      "navigation_components": "<scope>_<navigation_role>"
+    },
+    "accessibility_rules": [
+      "All interactive components must be keyboard accessible.",
+      "Focus states must remain visible independently of motion.",
+      "Semantic meaning must not depend exclusively on color.",
+      "Form controls must have accessible labels.",
+      "Dynamic state changes must be communicated when necessary.",
+      "Images conveying information require alternative text.",
+      "Decorative imagery must support an explicit decorative mode.",
+      "Motion must support reduced-motion behavior.",
+      "Touch targets must remain usable on small screens.",
+      "Component structure must preserve logical reading order."
+    ],
+    "responsive_rules": [
+      "Components must define behavior for mobile when their desktop composition cannot be preserved.",
+      "Complex horizontal layouts should become vertical or scrollable compositions on small screens.",
+      "Parallax should normally be disabled on touch devices.",
+      "Pinned compositions require a mobile-safe alternative.",
+      "Interactive controls must remain reachable without horizontal overflow.",
+      "Typography must remain within declared responsive scales.",
+      "Image crops must preserve semantic focal points."
+    ],
+    "validation_rules": [
+      "All components must reference valid design tokens.",
+      "All motion components must reference valid motion tokens.",
+      "All declared variants must belong to the component definition.",
+      "All motion references must resolve to existing components.",
+      "All component IDs must be unique.",
+      "All interactive components must define accessibility behavior.",
+      "All responsive component transformations must be explicitly declared.",
+      "No component may introduce arbitrary design values without an approved extension.",
+      "Content slots must reference valid content roles.",
+      "Components must not depend on undeclared page-specific behavior.",
+      "Complex component motion must define a reduced-motion fallback."
+    ]
+  },
+  "template_library": {
+    "templates": [
+      {
+        "id": "template_landing",
+        "category": "marketing",
+        "type": "landing",
+        "description": "Editorial landing structure used to introduce AURELIA, establish atmosphere, and direct visitors toward primary discovery journeys.",
+        "sections": [
+          "hero",
+          "introduction",
+          "featured_collection",
+          "editorial_story",
+          "experience_highlight",
+          "brand_statement",
+          "conversion"
+        ],
+        "allowed_components": [
+          "hero",
+          "image",
+          "stay_card",
+          "destination_card",
+          "experience_card",
+          "editorial_card",
+          "button",
+          "text_link",
+          "divider",
+          "booking_bar"
+        ],
+        "composition": {
+          "hero": {
+            "required": true,
+            "position": "first"
+          },
+          "featured_collection": {
+            "required": false,
+            "max_instances": 4
+          },
+          "conversion": {
+            "required": true,
+            "position": "last"
+          }
+        },
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_image",
+            "motion_sequence"
+          ],
+          "complex_scene_allowed": true
+        }
+      },
+      {
+        "id": "template_listing",
+        "category": "discovery",
+        "type": "listing",
+        "description": "Collection-oriented template for browsing multiple entities such as stays, destinations, or experiences.",
+        "sections": [
+          "page_header",
+          "filters",
+          "results",
+          "pagination_or_progressive_loading",
+          "conversion"
+        ],
+        "allowed_components": [
+          "breadcrumbs",
+          "filter_group",
+          "stay_card",
+          "destination_card",
+          "experience_card",
+          "button",
+          "text_link",
+          "booking_bar"
+        ],
+        "composition": {
+          "filters": {
+            "required": true,
+            "responsive_behavior": "drawer_on_mobile"
+          },
+          "results": {
+            "required": true,
+            "supports_empty_state": true
+          }
+        },
+        "responsive": {
+          "desktop": "filter_sidebar_or_inline",
+          "tablet": "condensed_filters",
+          "mobile": "filter_drawer"
+        },
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_hover",
+            "motion_image"
+          ],
+          "stagger_maximum_items": 12
+        }
+      },
+      {
+        "id": "template_detail",
+        "category": "content",
+        "type": "detail",
+        "description": "Immersive detail structure for an individual stay, destination, or experience.",
+        "sections": [
+          "breadcrumbs",
+          "hero_media",
+          "summary",
+          "primary_information",
+          "gallery",
+          "details",
+          "related_content",
+          "conversion"
+        ],
+        "allowed_components": [
+          "breadcrumbs",
+          "hero",
+          "image",
+          "image_gallery",
+          "price_display",
+          "amenity_list",
+          "destination_card",
+          "stay_card",
+          "experience_card",
+          "editorial_card",
+          "booking_bar",
+          "button",
+          "text_link"
+        ],
+        "composition": {
+          "hero_media": {
+            "required": true
+          },
+          "summary": {
+            "required": true
+          },
+          "gallery": {
+            "required": false
+          },
+          "conversion": {
+            "required": true
+          }
+        },
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_image",
+            "motion_parallax",
+            "motion_sequence"
+          ],
+          "complex_scene_allowed": true
+        }
+      },
+      {
+        "id": "template_stay_detail",
+        "category": "booking",
+        "type": "entity_detail",
+        "description": "Specialized detail structure for an individual AURELIA stay with booking-oriented information hierarchy.",
+        "sections": [
+          "breadcrumbs",
+          "stay_hero",
+          "stay_summary",
+          "availability",
+          "amenities",
+          "gallery",
+          "location",
+          "experiences",
+          "related_stays",
+          "booking"
+        ],
+        "allowed_components": [
+          "breadcrumbs",
+          "hero",
+          "image_gallery",
+          "price_display",
+          "amenity_list",
+          "date_selector",
+          "guest_selector",
+          "booking_bar",
+          "booking_summary",
+          "stay_card",
+          "experience_card",
+          "destination_card",
+          "button"
+        ],
+        "composition": {
+          "stay_hero": {
+            "required": true
+          },
+          "availability": {
+            "required": true
+          },
+          "booking": {
+            "required": true
+          }
+        },
+        "responsive": {
+          "desktop": "two_column_information_and_booking",
+          "tablet": "stacked_information",
+          "mobile": "stacked_with_mobile_booking_action"
+        },
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_image",
+            "motion_hover"
+          ]
+        }
+      },
+      {
+        "id": "template_destination",
+        "category": "discovery",
+        "type": "entity_detail",
+        "description": "Editorial destination structure combining place discovery, stays, experiences, and contextual storytelling.",
+        "sections": [
+          "destination_hero",
+          "introduction",
+          "story",
+          "featured_stays",
+          "experiences",
+          "local_context",
+          "journal",
+          "conversion"
+        ],
+        "allowed_components": [
+          "hero",
+          "image",
+          "image_gallery",
+          "stay_card",
+          "experience_card",
+          "editorial_card",
+          "destination_card",
+          "button",
+          "text_link",
+          "booking_bar"
+        ],
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_image",
+            "motion_parallax",
+            "motion_sequence"
+          ],
+          "complex_scene_allowed": true
+        }
+      },
+      {
+        "id": "template_experience",
+        "category": "discovery",
+        "type": "entity_detail",
+        "description": "Experience-oriented structure focused on activity discovery, atmosphere, practical information, and booking.",
+        "sections": [
+          "experience_hero",
+          "introduction",
+          "experience_details",
+          "gallery",
+          "practical_information",
+          "related_stays",
+          "booking"
+        ],
+        "allowed_components": [
+          "hero",
+          "image_gallery",
+          "experience_card",
+          "stay_card",
+          "price_display",
+          "amenity_list",
+          "button",
+          "booking_bar"
+        ],
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_image",
+            "motion_hover"
+          ]
+        }
+      },
+      {
+        "id": "template_editorial",
+        "category": "editorial",
+        "type": "article",
+        "description": "Long-form editorial structure for journal stories, destination narratives, and brand content.",
+        "sections": [
+          "article_hero",
+          "introduction",
+          "content",
+          "media_interlude",
+          "related_content",
+          "conversion"
+        ],
+        "allowed_components": [
+          "hero",
+          "image",
+          "image_gallery",
+          "editorial_card",
+          "destination_card",
+          "stay_card",
+          "text_link",
+          "button"
+        ],
+        "composition": {
+          "content": {
+            "required": true
+          },
+          "media_interlude": {
+            "repeatable": true,
+            "maximum_instances": 6
+          }
+        },
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_image"
+          ],
+          "parallax_allowed": false
+        }
+      },
+      {
+        "id": "template_search",
+        "category": "discovery",
+        "type": "search",
+        "description": "Search and filtering structure for discovering available AURELIA stays.",
+        "sections": [
+          "search_header",
+          "search_controls",
+          "active_filters",
+          "results",
+          "empty_state"
+        ],
+        "allowed_components": [
+          "booking_bar",
+          "filter_group",
+          "stay_card",
+          "price_display",
+          "button",
+          "text_link"
+        ],
+        "responsive": {
+          "desktop": "horizontal_search_and_grid",
+          "tablet": "condensed_search",
+          "mobile": "stacked_search_with_drawer_filters"
+        },
+        "motion": {
+          "preferred": [
+            "motion_reveal",
+            "motion_hover"
+          ],
+          "avoid": [
+            "complex_scene",
+            "continuous_motion"
+          ]
+        }
+      },
+      {
+        "id": "template_booking",
+        "category": "transaction",
+        "type": "booking",
+        "description": "Focused booking flow structure designed to minimize distraction and maintain contextual confidence.",
+        "sections": [
+          "booking_header",
+          "selection_summary",
+          "guest_information",
+          "payment_or_confirmation",
+          "final_summary"
+        ],
+        "allowed_components": [
+          "booking_summary",
+          "date_selector",
+          "guest_selector",
+          "form_field",
+          "price_display",
+          "button",
+          "text_link"
+        ],
+        "composition": {
+          "selection_summary": {
+            "required": true
+          },
+          "final_summary": {
+            "required": true
+          }
+        },
+        "motion": {
+          "preferred": [
+            "motion_transform",
+            "motion_reveal"
+          ],
+          "complex_scene_allowed": false
+        }
+      },
+      {
+        "id": "template_error",
+        "category": "system",
+        "type": "error",
+        "description": "Graceful fallback structure for unavailable or invalid routes.",
+        "sections": [
+          "message",
+          "recovery_actions",
+          "recommended_content"
+        ],
+        "allowed_components": [
+          "button",
+          "text_link",
+          "stay_card",
+          "destination_card",
+          "experience_card"
+        ],
+        "motion": {
+          "preferred": [
+            "motion_reveal"
+          ]
+        }
+      }
+    ],
+    "categories": [
+      "marketing",
+      "discovery",
+      "content",
+      "booking",
+      "editorial",
+      "transaction",
+      "system"
+    ],
+    "structure_rules": [
+      "Templates define structural composition and must not contain hard-coded entity content.",
+      "Templates must compose declared components rather than introduce undeclared UI primitives.",
+      "Required sections must remain present unless an explicit template variant permits their removal.",
+      "Optional sections may be omitted when the corresponding content is unavailable.",
+      "Templates must preserve semantic reading order.",
+      "Conversion-oriented templates must provide a clear primary action.",
+      "Detail templates must expose the primary entity context before secondary content.",
+      "Listing templates must provide a usable empty state.",
+      "Editorial templates must preserve readable long-form content structure."
+    ],
+    "composition_rules": [
+      "A template may compose multiple component categories.",
+      "Component variants must remain within their declared definitions.",
+      "Motion must be declared at component or sequence level.",
+      "Complex page motion must use declared motion scenes.",
+      "Templates must not introduce arbitrary animation values.",
+      "Templates should maintain visual rhythm through alternating dense and spacious sections.",
+      "Related content should use existing entity components.",
+      "Repeated content should be data-driven rather than manually duplicated."
+    ],
+    "responsive_rules": [
+      "Every template must define mobile behavior when its desktop structure cannot be preserved.",
+      "Desktop multi-column compositions should collapse into logical reading order.",
+      "Filters should become drawers or expandable controls on small screens when appropriate.",
+      "Booking actions must remain accessible throughout the mobile journey.",
+      "Hero media must provide responsive crops.",
+      "Pinned or complex motion must have a mobile-safe alternative.",
+      "Templates must not introduce horizontal overflow."
+    ],
+    "validation_rules": [
+      "Every referenced component must exist in component_library.",
+      "Every referenced section must have a declared structural purpose.",
+      "Every template ID must be unique.",
+      "Every template must define a category and type.",
+      "Required components must be available in the component library.",
+      "Motion references must resolve to declared motion components or scenes.",
+      "Templates must not contain undeclared components.",
+      "Templates must define responsive behavior when structurally necessary.",
+      "Booking templates must expose a clear final action.",
+      "Listing templates must define empty-state behavior.",
+      "Complex motion must define a reduced-motion fallback."
+    ]
+  },
+  "pages": {
+    "items": [
+      {
+        "id": "page_home",
+        "route": "/",
+        "type": "landing",
+        "template": "template_landing",
+        "status": "published",
+        "seo": {
+          "title": "AURELIA — Places Worth Remembering",
+          "description": "AURELIA connects travelers with distinctive stays, meaningful experiences, and places with a story."
+        },
+        "data": {
+          "source": "content.home",
+          "mode": "static"
+        },
+        "sections": [
+          {
+            "id": "home_hero",
+            "type": "hero",
+            "required": true,
+            "data": "content.home.hero"
+          },
+          {
+            "id": "home_featured_stays",
+            "type": "featured_collection",
+            "component": "stay_card",
+            "data": "content.stays.featured"
+          },
+          {
+            "id": "home_destinations",
+            "type": "featured_collection",
+            "component": "destination_card",
+            "data": "content.destinations.featured"
+          },
+          {
+            "id": "home_experiences",
+            "type": "featured_collection",
+            "component": "experience_card",
+            "data": "content.experiences.featured"
+          },
+          {
+            "id": "home_editorial",
+            "type": "editorial_collection",
+            "component": "editorial_card",
+            "data": "content.editorial.featured"
+          }
+        ],
+        "motion": {
+          "scene": "scene_home_entry"
+        }
+      },
+      {
+        "id": "page_stays",
+        "route": "/stays",
+        "type": "listing",
+        "template": "template_listing",
+        "status": "published",
+        "seo": {
+          "title": "Stays — AURELIA",
+          "description": "Discover distinctive places to stay curated by AURELIA."
+        },
+        "data": {
+          "source": "content.stays",
+          "mode": "collection"
+        },
+        "sections": [
+          {
+            "id": "stays_header",
+            "type": "page_header"
+          },
+          {
+            "id": "stays_filters",
+            "type": "filters",
+            "component": "filter_group",
+            "data": "content.stays.filters"
+          },
+          {
+            "id": "stays_results",
+            "type": "results",
+            "component": "stay_card",
+            "data": "content.stays.results"
+          }
+        ]
+      },
+      {
+        "id": "page_stay_detail",
+        "route": "/stays/:stayId",
+        "type": "entity_detail",
+        "template": "template_stay_detail",
+        "status": "published",
+        "data": {
+          "source": "content.stays",
+          "mode": "dynamic",
+          "entity": "stay",
+          "parameter": "stayId"
+        },
+        "sections": [
+          {
+            "id": "stay_hero",
+            "type": "hero",
+            "component": "hero",
+            "data": "entity.hero"
+          },
+          {
+            "id": "stay_summary",
+            "type": "summary",
+            "data": "entity.summary"
+          },
+          {
+            "id": "stay_availability",
+            "type": "availability",
+            "component": "booking_bar",
+            "data": "entity.availability"
+          },
+          {
+            "id": "stay_gallery",
+            "type": "gallery",
+            "component": "image_gallery",
+            "data": "entity.gallery"
+          },
+          {
+            "id": "stay_amenities",
+            "type": "amenities",
+            "component": "amenity_list",
+            "data": "entity.amenities"
+          },
+          {
+            "id": "stay_experiences",
+            "type": "related_collection",
+            "component": "experience_card",
+            "data": "entity.experiences"
+          },
+          {
+            "id": "stay_related",
+            "type": "related_collection",
+            "component": "stay_card",
+            "data": "entity.related_stays"
+          }
+        ]
+      },
+      {
+        "id": "page_destinations",
+        "route": "/destinations",
+        "type": "listing",
+        "template": "template_listing",
+        "status": "published",
+        "data": {
+          "source": "content.destinations",
+          "mode": "collection"
+        },
+        "sections": [
+          {
+            "id": "destinations_results",
+            "type": "results",
+            "component": "destination_card",
+            "data": "content.destinations.results"
+          }
+        ]
+      },
+      {
+        "id": "page_destination_detail",
+        "route": "/destinations/:destinationId",
+        "type": "entity_detail",
+        "template": "template_destination",
+        "status": "published",
+        "data": {
+          "source": "content.destinations",
+          "mode": "dynamic",
+          "entity": "destination",
+          "parameter": "destinationId"
+        },
+        "sections": [
+          {
+            "id": "destination_hero",
+            "type": "hero",
+            "component": "hero",
+            "data": "entity.hero"
+          },
+          {
+            "id": "destination_story",
+            "type": "story",
+            "data": "entity.story"
+          },
+          {
+            "id": "destination_stays",
+            "type": "related_collection",
+            "component": "stay_card",
+            "data": "entity.stays"
+          },
+          {
+            "id": "destination_experiences",
+            "type": "related_collection",
+            "component": "experience_card",
+            "data": "entity.experiences"
+          },
+          {
+            "id": "destination_journal",
+            "type": "related_collection",
+            "component": "editorial_card",
+            "data": "entity.editorial"
+          }
+        ]
+      },
+      {
+        "id": "page_experiences",
+        "route": "/experiences",
+        "type": "listing",
+        "template": "template_listing",
+        "status": "published",
+        "data": {
+          "source": "content.experiences",
+          "mode": "collection"
+        },
+        "sections": [
+          {
+            "id": "experiences_results",
+            "type": "results",
+            "component": "experience_card",
+            "data": "content.experiences.results"
+          }
+        ]
+      },
+      {
+        "id": "page_experience_detail",
+        "route": "/experiences/:experienceId",
+        "type": "entity_detail",
+        "template": "template_experience",
+        "status": "published",
+        "data": {
+          "source": "content.experiences",
+          "mode": "dynamic",
+          "entity": "experience",
+          "parameter": "experienceId"
+        },
+        "sections": [
+          {
+            "id": "experience_hero",
+            "type": "hero",
+            "component": "hero",
+            "data": "entity.hero"
+          },
+          {
+            "id": "experience_gallery",
+            "type": "gallery",
+            "component": "image_gallery",
+            "data": "entity.gallery"
+          },
+          {
+            "id": "experience_details",
+            "type": "details",
+            "data": "entity.details"
+          },
+          {
+            "id": "experience_related_stays",
+            "type": "related_collection",
+            "component": "stay_card",
+            "data": "entity.related_stays"
+          }
+        ]
+      },
+      {
+        "id": "page_journal",
+        "route": "/journal",
+        "type": "listing",
+        "template": "template_listing",
+        "status": "published",
+        "data": {
+          "source": "content.editorial",
+          "mode": "collection"
+        },
+        "sections": [
+          {
+            "id": "journal_results",
+            "type": "editorial_collection",
+            "component": "editorial_card",
+            "data": "content.editorial.results"
+          }
+        ]
+      },
+      {
+        "id": "page_editorial_detail",
+        "route": "/journal/:articleId",
+        "type": "article",
+        "template": "template_editorial",
+        "status": "published",
+        "data": {
+          "source": "content.editorial",
+          "mode": "dynamic",
+          "entity": "article",
+          "parameter": "articleId"
+        },
+        "sections": [
+          {
+            "id": "article_hero",
+            "type": "hero",
+            "component": "hero",
+            "data": "entity.hero"
+          },
+          {
+            "id": "article_content",
+            "type": "content",
+            "data": "entity.content"
+          },
+          {
+            "id": "article_media",
+            "type": "media",
+            "component": "image_gallery",
+            "data": "entity.media"
+          },
+          {
+            "id": "article_related",
+            "type": "related_collection",
+            "component": "editorial_card",
+            "data": "entity.related"
+          }
+        ]
+      },
+      {
+        "id": "page_search",
+        "route": "/search",
+        "type": "search",
+        "template": "template_search",
+        "status": "published",
+        "data": {
+          "source": "content.search",
+          "mode": "query"
+        },
+        "sections": [
+          {
+            "id": "search_controls",
+            "type": "search_controls",
+            "component": "booking_bar",
+            "data": "query.parameters"
+          },
+          {
+            "id": "search_filters",
+            "type": "filters",
+            "component": "filter_group",
+            "data": "query.filters"
+          },
+          {
+            "id": "search_results",
+            "type": "results",
+            "component": "stay_card",
+            "data": "query.results"
+          }
+        ]
+      },
+      {
+        "id": "page_booking",
+        "route": "/booking",
+        "type": "booking",
+        "template": "template_booking",
+        "status": "published",
+        "data": {
+          "source": "booking.current",
+          "mode": "transaction"
+        },
+        "sections": [
+          {
+            "id": "booking_summary",
+            "type": "summary",
+            "component": "booking_summary",
+            "data": "booking.selection"
+          },
+          {
+            "id": "booking_guest_information",
+            "type": "guest_information",
+            "component": "form_field",
+            "data": "booking.guest"
+          },
+          {
+            "id": "booking_total",
+            "type": "total",
+            "component": "price_display",
+            "data": "booking.total"
+          }
+        ]
+      },
+      {
+        "id": "page_404",
+        "route": "*",
+        "type": "error",
+        "template": "template_error",
+        "status": "system",
+        "data": {
+          "source": "system.error"
+        }
+      }
+    ],
+    "page_types": [
+      "landing",
+      "listing",
+      "entity_detail",
+      "article",
+      "search",
+      "booking",
+      "error"
+    ],
+    "routing": {
+      "strategy": "declarative",
+      "parameter_style": "named",
+      "trailing_slash": false,
+      "unknown_route": "page_404",
+      "rules": [
+        "Routes must resolve to exactly one page definition.",
+        "Dynamic routes must declare their entity and parameter.",
+        "Route parameters must use declared entity identifiers.",
+        "System routes must not conflict with dynamic entity routes.",
+        "Canonical URLs must be deterministic."
+      ]
+    },
+    "global_rules": [
+      "Every page must reference a valid template.",
+      "Every page section must reference an existing component when a component is declared.",
+      "Page content must remain separate from presentation.",
+      "Pages must preserve semantic document hierarchy.",
+      "Primary conversion actions must remain accessible.",
+      "Pages must support responsive behavior through their templates and components.",
+      "Motion must never be required to understand page content.",
+      "Pages must expose appropriate metadata for accessibility and discoverability.",
+      "Dynamic pages must gracefully handle missing entities.",
+      "Empty collections must provide an intentional empty state."
+    ],
+    "validation_rules": [
+      "Every page ID must be unique.",
+      "Every route must be unique after parameter normalization.",
+      "Every referenced template must exist.",
+      "Every referenced component must exist.",
+      "Every dynamic entity must be declared.",
+      "Every data reference must use a declared namespace.",
+      "Every page section must have a valid structural type.",
+      "Every motion scene reference must resolve when declared.",
+      "No page may introduce undeclared design tokens.",
+      "No page may silently override component styling.",
+      "Dynamic pages must define missing-entity behavior.",
+      "Collection pages must define empty-state behavior.",
+      "Booking pages must define a recoverable failure state."
+    ]
+  },
+  "content_model": {
+    "version": "0.1.0",
+    "mode": "declarative",
+    "entities": [
+      {
+        "id": "entity_stay",
+        "name": "Stay",
+        "singular": "stay",
+        "plural": "stays",
+        "description": "A bookable accommodation offered through AURELIA.",
+        "identity": {
+          "required": [
+            "id",
+            "slug",
+            "name"
+          ],
+          "fields": {
+            "id": {
+              "type": "string",
+              "unique": true,
+              "immutable": true
+            },
+            "slug": {
+              "type": "slug",
+              "unique": true,
+              "required": true
+            },
+            "name": {
+              "type": "string",
+              "required": true
+            },
+            "short_description": {
+              "type": "text",
+              "required": true
+            },
+            "description": {
+              "type": "rich_text",
+              "required": true
+            }
+          }
+        },
+        "location": {
+          "fields": {
+            "country": {
+              "type": "string",
+              "required": true
+            },
+            "region": {
+              "type": "string",
+              "required": true
+            },
+            "city": {
+              "type": "string",
+              "required": false
+            },
+            "coordinates": {
+              "type": "coordinates",
+              "required": false
+            }
+          }
+        },
+        "commercial": {
+          "fields": {
+            "price": {
+              "type": "number",
+              "required": true,
+              "minimum": 0
+            },
+            "currency": {
+              "type": "currency",
+              "required": true
+            },
+            "price_unit": {
+              "type": "enum",
+              "values": [
+                "night",
+                "week",
+                "month",
+                "stay"
+              ],
+              "required": true
+            }
+          }
+        },
+        "availability": {
+          "fields": {
+            "status": {
+              "type": "enum",
+              "values": [
+                "available",
+                "limited",
+                "unavailable",
+                "seasonal"
+              ],
+              "required": true
+            }
+          }
+        },
+        "features": {
+          "fields": {
+            "guests": {
+              "type": "integer",
+              "minimum": 1,
+              "required": true
+            },
+            "bedrooms": {
+              "type": "integer",
+              "minimum": 0,
+              "required": true
+            },
+            "bathrooms": {
+              "type": "integer",
+              "minimum": 0,
+              "required": true
+            },
+            "amenities": {
+              "type": "array",
+              "items": "string",
+              "required": false
+            }
+          }
+        },
+        "assets": {
+          "fields": {
+            "cover": {
+              "type": "asset_reference",
+              "required": true,
+              "category": "hero"
+            },
+            "gallery": {
+              "type": "asset_reference[]",
+              "required": false,
+              "category": "gallery",
+              "minimum": 1
+            }
+          }
+        },
+        "presentation": {
+          "card_component": "stay_card",
+          "detail_template": "template_stay_detail",
+          "listing_page": "page_stays"
+        }
+      },
+      {
+        "id": "entity_destination",
+        "name": "Destination",
+        "singular": "destination",
+        "plural": "destinations",
+        "fields": {
+          "id": {
+            "type": "string",
+            "unique": true,
+            "required": true
+          },
+          "slug": {
+            "type": "slug",
+            "unique": true,
+            "required": true
+          },
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "country": {
+            "type": "string",
+            "required": true
+          },
+          "region": {
+            "type": "string",
+            "required": false
+          },
+          "description": {
+            "type": "rich_text",
+            "required": true
+          },
+          "hero": {
+            "type": "asset_reference",
+            "required": true
+          }
+        },
+        "presentation": {
+          "card_component": "destination_card",
+          "detail_template": "template_destination",
+          "listing_page": "page_destinations"
+        }
+      },
+      {
+        "id": "entity_experience",
+        "name": "Experience",
+        "singular": "experience",
+        "plural": "experiences",
+        "fields": {
+          "id": {
+            "type": "string",
+            "unique": true,
+            "required": true
+          },
+          "slug": {
+            "type": "slug",
+            "unique": true,
+            "required": true
+          },
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "rich_text",
+            "required": true
+          },
+          "duration": {
+            "type": "duration",
+            "required": true
+          },
+          "price": {
+            "type": "number",
+            "required": false
+          },
+          "currency": {
+            "type": "currency",
+            "required": false
+          },
+          "hero": {
+            "type": "asset_reference",
+            "required": true
+          }
+        },
+        "presentation": {
+          "card_component": "experience_card",
+          "detail_template": "template_experience",
+          "listing_page": "page_experiences"
+        }
+      },
+      {
+        "id": "entity_editorial",
+        "name": "Editorial",
+        "singular": "article",
+        "plural": "articles",
+        "fields": {
+          "id": {
+            "type": "string",
+            "unique": true,
+            "required": true
+          },
+          "slug": {
+            "type": "slug",
+            "unique": true,
+            "required": true
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "excerpt": {
+            "type": "text",
+            "required": true
+          },
+          "content": {
+            "type": "rich_text",
+            "required": true
+          },
+          "author": {
+            "type": "string",
+            "required": true
+          },
+          "cover": {
+            "type": "asset_reference",
+            "required": true
+          }
+        },
+        "presentation": {
+          "card_component": "editorial_card",
+          "detail_template": "template_editorial",
+          "listing_page": "page_journal"
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "id": "destination_stays",
+        "from": "entity_destination",
+        "to": "entity_stay",
+        "type": "one_to_many",
+        "inverse": "stay_destination"
+      },
+      {
+        "id": "destination_experiences",
+        "from": "entity_destination",
+        "to": "entity_experience",
+        "type": "one_to_many"
+      },
+      {
+        "id": "stay_destination",
+        "from": "entity_stay",
+        "to": "entity_destination",
+        "type": "many_to_one"
+      },
+      {
+        "id": "stay_experiences",
+        "from": "entity_stay",
+        "to": "entity_experience",
+        "type": "many_to_many"
+      }
+    ],
+    "validation_rules": [
+      "Every entity must have a unique identifier.",
+      "Every entity with a public URL must define a unique slug.",
+      "Required fields must be present before publication.",
+      "Referenced assets must exist in asset_library.",
+      "Referenced components must exist in component_library.",
+      "Referenced templates must exist in template_library.",
+      "Relationships must reference declared entities.",
+      "Enum values must be declared before use.",
+      "Numeric constraints must be respected.",
+      "Published entities must satisfy all required-field rules.",
+      "Invalid entities must not be rendered as published content."
+    ]
+  },
+  "presentation_rules": {
+    "contexts": [
+      {
+        "id": "context_card",
+        "description": "Compact representation used in collections and recommendations.",
+        "entity_rules": {
+          "entity_stay": {
+            "visible": [
+              "name",
+              "short_description",
+              "location",
+              "price",
+              "currency",
+              "price_unit",
+              "availability.status",
+              "assets.cover"
+            ],
+            "hidden": [
+              "description",
+              "assets.gallery"
+            ],
+            "component": "stay_card"
+          },
+          "entity_destination": {
+            "visible": [
+              "name",
+              "country",
+              "region",
+              "hero"
+            ],
+            "component": "destination_card"
+          },
+          "entity_experience": {
+            "visible": [
+              "name",
+              "description",
+              "duration",
+              "price",
+              "currency",
+              "hero"
+            ],
+            "component": "experience_card"
+          },
+          "entity_editorial": {
+            "visible": [
+              "title",
+              "excerpt",
+              "author",
+              "cover"
+            ],
+            "component": "editorial_card"
+          }
+        }
+      },
+      {
+        "id": "context_listing",
+        "description": "Representation used in collection pages.",
+        "entity_rules": {
+          "entity_stay": {
+            "visible": [
+              "name",
+              "location",
+              "price",
+              "currency",
+              "price_unit",
+              "availability.status",
+              "features.guests",
+              "features.bedrooms",
+              "assets.cover"
+            ],
+            "component": "stay_card"
+          },
+          "entity_destination": {
+            "visible": [
+              "name",
+              "country",
+              "region",
+              "hero"
+            ],
+            "component": "destination_card"
+          },
+          "entity_experience": {
+            "visible": [
+              "name",
+              "duration",
+              "price",
+              "currency",
+              "hero"
+            ],
+            "component": "experience_card"
+          },
+          "entity_editorial": {
+            "visible": [
+              "title",
+              "excerpt",
+              "author",
+              "cover"
+            ],
+            "component": "editorial_card"
+          }
+        }
+      },
+      {
+        "id": "context_detail",
+        "description": "Complete entity representation used on detail pages.",
+        "entity_rules": {
+          "entity_stay": {
+            "visible": [
+              "identity",
+              "location",
+              "commercial",
+              "availability",
+              "features",
+              "assets"
+            ],
+            "component": "template_stay_detail"
+          },
+          "entity_destination": {
+            "visible": [
+              "identity",
+              "location",
+              "description",
+              "hero"
+            ],
+            "component": "template_destination"
+          },
+          "entity_experience": {
+            "visible": [
+              "identity",
+              "description",
+              "duration",
+              "price",
+              "currency",
+              "hero"
+            ],
+            "component": "template_experience"
+          },
+          "entity_editorial": {
+            "visible": [
+              "title",
+              "author",
+              "content",
+              "cover"
+            ],
+            "component": "template_editorial"
+          }
+        }
+      },
+      {
+        "id": "context_search",
+        "description": "Minimal representation optimized for rapid comparison and filtering.",
+        "entity_rules": {
+          "entity_stay": {
+            "visible": [
+              "name",
+              "location",
+              "commercial.price",
+              "commercial.currency",
+              "commercial.price_unit",
+              "availability.status",
+              "features.guests",
+              "features.bedrooms",
+              "assets.cover"
+            ],
+            "component": "stay_card"
+          }
+        }
+      },
+      {
+        "id": "context_related",
+        "description": "Compact representation used for related content.",
+        "entity_rules": {
+          "entity_stay": {
+            "visible": [
+              "name",
+              "location",
+              "price",
+              "currency",
+              "assets.cover"
+            ],
+            "component": "stay_card"
+          },
+          "entity_destination": {
+            "visible": [
+              "name",
+              "country",
+              "hero"
+            ],
+            "component": "destination_card"
+          },
+          "entity_experience": {
+            "visible": [
+              "name",
+              "duration",
+              "hero"
+            ],
+            "component": "experience_card"
+          },
+          "entity_editorial": {
+            "visible": [
+              "title",
+              "excerpt",
+              "cover"
+            ],
+            "component": "editorial_card"
+          }
+        }
+      }
+    ],
+    "field_behaviors": {
+      "availability.status": {
+        "display_type": "status",
+        "semantic_mapping": {
+          "available": "positive",
+          "limited": "warning",
+          "unavailable": "negative",
+          "seasonal": "informative"
+        }
+      },
+      "commercial.price": {
+        "display_type": "currency",
+        "requires": [
+          "commercial.currency",
+          "commercial.price_unit"
+        ]
+      },
+      "assets.cover": {
+        "display_type": "image",
+        "required_alt_text": true,
+        "responsive": true
+      },
+      "description": {
+        "display_type": "rich_text",
+        "preserve_semantic_structure": true
+      }
+    },
+    "responsive_rules": [
+      {
+        "context": "context_card",
+        "desktop": {
+          "layout": "horizontal_or_vertical"
+        },
+        "tablet": {
+          "layout": "vertical"
+        },
+        "mobile": {
+          "layout": "vertical",
+          "content_priority": [
+            "name",
+            "assets.cover",
+            "price",
+            "availability.status"
+          ]
+        }
+      },
+      {
+        "context": "context_detail",
+        "desktop": {
+          "layout": "multi_column"
+        },
+        "tablet": {
+          "layout": "stacked"
+        },
+        "mobile": {
+          "layout": "single_column",
+          "preserve_primary_action": true
+        }
+      }
+    ],
+    "visibility_rules": [
+      {
+        "id": "hide_unavailable_price",
+        "when": {
+          "field": "availability.status",
+          "equals": "unavailable"
+        },
+        "action": "replace",
+        "target": "commercial.price",
+        "replacement": "availability.status"
+      },
+      {
+        "id": "hide_empty_optional_fields",
+        "when": {
+          "field": "*",
+          "is_empty": true
+        },
+        "action": "hide"
+      },
+      {
+        "id": "preserve_required_identity",
+        "when": {
+          "field": "identity",
+          "is_empty": true
+        },
+        "action": "invalid_entity"
+      }
+    ],
+    "ordering_rules": [
+      {
+        "context": "context_card",
+        "order": [
+          "assets.cover",
+          "name",
+          "location",
+          "commercial.price",
+          "availability.status"
+        ]
+      },
+      {
+        "context": "context_detail",
+        "order": [
+          "identity",
+          "assets",
+          "location",
+          "commercial",
+          "availability",
+          "features"
+        ]
+      }
+    ],
+    "fallbacks": {
+      "missing_image": {
+        "strategy": "declared_asset_placeholder",
+        "asset_category": "placeholder"
+      },
+      "missing_optional_text": {
+        "strategy": "hide"
+      },
+      "missing_required_field": {
+        "strategy": "validation_error"
+      },
+      "missing_related_content": {
+        "strategy": "hide_section"
+      }
+    },
+    "validation_rules": [
+      "Every presentation context must reference declared entities.",
+      "Every referenced field must exist in the corresponding entity model.",
+      "Every referenced component must exist in component_library.",
+      "Every detail context must preserve required entity identity.",
+      "Required fields must never be silently replaced by invented content.",
+      "Optional empty fields may be hidden.",
+      "Missing assets must use declared fallbacks.",
+      "Presentation rules must not introduce undeclared styling tokens.",
+      "Presentation rules must not override component definitions.",
+      "Responsive rules must preserve semantic content order.",
+      "Primary actions must remain available across responsive states."
+    ]
+  },
+  "validation": {
+    "schema": {
+      "enabled": true,
+      "strict_mode": true
+    },
+    "references": {
+      "validate_ids": true,
+      "missing_reference": "error"
+    },
+    "design_rules": [
+      "All referenced components must exist in component_library.",
+      "All referenced templates must exist in template_library.",
+      "All referenced pages must exist in pages.items.",
+      "All referenced assets must exist in asset_library.",
+      "All motion components must reference valid motion rules.",
+      "All motion scenes must reference valid motion sequences or components.",
+      "All scene transitions must reference valid scenes.",
+      "All motion must use declared design tokens.",
+      "All visual properties must remain consistent with the declared design system.",
+      "Components must not introduce undeclared design tokens.",
+      "Templates must preserve the declared information hierarchy.",
+      "Pages must use declared templates and components.",
+      "Dynamic pages must reference valid content sources.",
+      "Content presentation must use declared components and templates.",
+      "Complex motion must define a fallback.",
+      "Motion must remain consistent with the visual language.",
+      "Responsive behavior must use declared breakpoints and strategies."
+    ],
+    "accessibility": {
+      "enabled": true,
+      "standard": "WCAG 2.2 AA"
+    },
+    "consistency": [
+      "Motion duration must use design tokens.",
+      "Motion easing must use design tokens.",
+      "Motion delay must use design tokens.",
+      "Motion intensity must remain consistent across components.",
+      "Equivalent interactions must use equivalent motion behavior.",
+      "Reduced-motion behavior must be explicitly defined for complex motion.",
+      "Responsive motion behavior must be explicitly defined when required.",
+      "Typography must use declared typography tokens.",
+      "Colors must use declared semantic or palette tokens.",
+      "Spacing must use declared spacing tokens.",
+      "Border radius must use declared radius tokens.",
+      "Elevation must use declared shadow levels.",
+      "Components must preserve their declared visual and behavioral contracts."
+    ],
+    "performance": {
+      "enabled": true,
+      "severity": "warning",
+      "rules": [
+        "Prefer transform and opacity for frequent animation.",
+        "Avoid unnecessary continuous animation.",
+        "Avoid expensive layout animation.",
+        "Avoid excessive simultaneous animations.",
+        "Heavy scenes should provide simplified alternatives.",
+        "Images should respect declared asset quality requirements.",
+        "Motion must not introduce layout instability.",
+        "Complex responsive behavior should degrade gracefully on lower-powered devices."
+      ]
+    },
+    "reports": {
+      "format": "json",
+      "severity_levels": [
+        "error",
+        "warning",
+        "info"
+      ]
+    }
+  },
+  "documentation": {
+    "conventions": [
+      "All identifiers must use lowercase snake_case.",
+      "Identifiers must remain stable once referenced by another DSF section.",
+      "References must use declared component, template, page, asset, token, or motion identifiers.",
+      "Design values must be expressed through declared design tokens whenever an equivalent token exists.",
+      "Motion values must always reference declared motion tokens.",
+      "Components should remain reusable and should not contain page-specific styling.",
+      "Templates should describe reusable page structures rather than individual content instances.",
+      "Pages should define composition and routing while reusable behavior remains delegated to components.",
+      "Content should remain separate from presentation whenever the declared content model extension is used.",
+      "Optional content should not create empty visual structures when no value is available.",
+      "Responsive behavior must preserve semantic content order.",
+      "Motion must remain optional to understanding and operation of the interface.",
+      "Reduced-motion behavior must preserve functionality and content hierarchy.",
+      "Assets should be referenced through asset_library rather than duplicated across pages.",
+      "Changes to shared tokens or components should be evaluated for their impact across all referencing pages and templates."
+    ],
+    "guidelines": [
+      "Prefer existing components before introducing new components.",
+      "Prefer existing templates before introducing new page structures.",
+      "Prefer existing assets before generating new assets.",
+      "Prefer existing motion components before defining new motion behavior.",
+      "Use the minimum visual complexity necessary to communicate hierarchy.",
+      "Keep primary user actions visually and structurally clear.",
+      "Use progressive disclosure when information density becomes high.",
+      "Maintain consistent interaction behavior across equivalent contexts.",
+      "Use semantic HTML structures in implementation.",
+      "Preserve keyboard accessibility independently from pointer interaction.",
+      "Treat reduced motion as a supported presentation mode rather than an error state.",
+      "Simplify complex compositions on smaller screens when necessary.",
+      "Avoid decorative motion that competes with primary content.",
+      "Validate references before generating or modifying implementation output.",
+      "Validate responsive and accessibility behavior before production publication.",
+      "When a requirement conflicts with an existing DSF rule, report the conflict instead of silently overriding the rule."
+    ],
+    "changelog": [
+      {
+        "version": "1.0.0",
+        "date": "",
+        "type": "initial",
+        "summary": "Initial AURELIA DSF document created from DSF schema 1.2.0."
+      }
+    ],
+    "glossary": {
+      "DSF": "Design System Format.",
+      "motion_component": "A reusable component responsible for a specific motion behavior.",
+      "motion_sequence": "An orchestration of multiple motion components.",
+      "motion_scene": "A complete motion experience composed of elements, sequences, states, triggers, and transitions.",
+      "choreography": "The coordinated movement of multiple interface elements according to hierarchy and spatial relationships.",
+      "scroll_driven_motion": "Motion whose progression is controlled by normalized scroll progress.",
+      "reduced_motion": "An accessibility mode that minimizes or disables non-essential motion.",
+      "fallback": "A simplified or static alternative used when complex motion should not or cannot be executed.",
+      "design_token": "A named design value used to maintain consistency across the interface.",
+      "component": "A reusable interface element with defined structure, behavior, variants, and accessibility requirements.",
+      "template": "A reusable page-level composition defining the structural arrangement of interface elements.",
+      "page": "A routable interface composition that references declared templates, components, content, and assets.",
+      "asset": "A reusable visual or media resource registered in the asset library.",
+      "content_entity": "A structured content object defined by the optional content model extension.",
+      "presentation_rule": "A rule describing how content entity fields are presented within a declared context.",
+      "semantic_hierarchy": "The ordered structural relationship between content elements according to their meaning and importance.",
+      "progressive_degradation": "The controlled simplification of an experience when device, accessibility, or performance constraints require it."
+    },
+    "notes": [
+      "AURELIA is defined against DSF schema version 1.2.0.",
+      "The DSF is intended to be interpreted as a strict design and implementation contract.",
+      "Declared components, templates, assets, tokens, and motion behaviors should be reused whenever applicable.",
+      "The optional content model and presentation model are experimental extensions and are not part of the DSF 1.2.0 core schema.",
+      "The DSF should remain implementation-agnostic while providing sufficient constraints for AI-assisted design and frontend generation.",
+      "Visual quality must not be achieved by bypassing accessibility, responsive, performance, or consistency rules.",
+      "The document should evolve through explicit versioned changes rather than silent structural modifications.",
+      "Any future schema-level capability should be evaluated for inclusion in a future DSF schema version rather than silently added to the core structure."
+    ]
+  }
+}
